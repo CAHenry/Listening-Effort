@@ -27,8 +27,8 @@ def write_source(file, num, pos, name, location, vol, vol_db, slider_pos=45, rev
     # file.write("\t<Source_%d_FD>Off</Source_%d_FD>\n" % (num, num))
 
 
-ASLQ_words = "C:\\Users\\craig\\Documents\\Listening_effort\\Audio_App\\ASLQ"
-Masking = "C:\\Users\\craig\\Documents\\Listening_effort\\Audio_App\\Masking"
+ASLQ_words = "C:\\Users\\craig\\Documents\\Listening-effort\\Max\\ASLQ"
+Masking = "C:\\Users\\craig\\Documents\\Listening-effort\\Max\\Masking"
 
 source_distance = 1
 
@@ -38,7 +38,7 @@ gain = 0.5
 num_sources = len(os.listdir(ASLQ_words)) + len(os.listdir(Masking))
 
 xml_filename = "Separate_sources.xml"
-xml = open(os.path.join("C:\\Users\\craig\\Documents\\Listening_effort\\XMLs", xml_filename), "w+")
+xml = open(os.path.join("C:\\Users\\craig\\Documents\\Listening-effort\\XMLs", xml_filename), "w+")
 
 xml.write("<BinauralApp>\n"
           "\t<FrameSize>%d</FrameSize>\n"
@@ -57,13 +57,13 @@ xml.write("<BinauralApp>\n"
 source = 0
 for filename in os.listdir(Masking):
     cart = spherical_2_cartesian(source_distance, 0, 0)
-    write_source(xml, source, cart, filename, "./../Audio_App/Masking", gain * 0.501187, 20 * np.log10(gain * 0.501187), reverb_state="On")
+    write_source(xml, source, cart, filename, "./../Max/Masking", gain * 0.501187, 20 * np.log10(gain * 0.501187), reverb_state="On")
     source += 1
     xml.write("\n")
 
 for filename in os.listdir(ASLQ_words):
     cart = spherical_2_cartesian(source_distance, 0, 0)
-    write_source(xml, source, cart, filename, "./../Audio_App/ASLQ", gain, 20 * np.log10(gain), reverb_state="On")
+    write_source(xml, source, cart, filename, "./../Max/ASLQ", gain, 20 * np.log10(gain), reverb_state="On")
     source += 1
     xml.write("\n")
 
