@@ -26,11 +26,12 @@ class Test:
 
         xml = open(os.path.join(root, xml_filename), "w+")
         text = open(os.path.join(root, text_filename), "w+")
-
+        text_str = ""
         maskers = []
         files = []
         positions = []
         source_count = 0
+        line_count = 2
         for condition in self._test_conditions:
             masker = condition.masking_condition
             num_sources = masker.get_num_sources()
@@ -42,10 +43,15 @@ class Test:
                 masker.source_index = source_count
                 source_count += num_sources
 
-            text.write("%s, %i, %i , %i\n" % (masker.name, masker.source_index, num_sources, condition.screen))
+            text_str += "%i %s %i %i %i\r" % (line_count, masker.name, masker.source_index, num_sources, condition.screen)
+            line_count += 1
+
+        num_maskers = source_count
+        source_count += len(os.listdir(sentences))
+        text.write("1 %i %i %i\r" % (source_count, num_maskers, len(self._test_conditions)))
+        text.write(text_str)
         text.close()
 
-        source_count += len(os.listdir(sentences))
         xml.write("<BinauralApp>\n"
                   "\t<FrameSize>%d</FrameSize>\n"
                   "\t<ListenerPosX>0.000000000</ListenerPosX>\n"
