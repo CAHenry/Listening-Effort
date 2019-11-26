@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 256.0, 129.0, 1843.0, 1273.0 ],
+		"rect" : [ 42.0, 85.0, 672.0, 1273.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -271,7 +271,6 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"numplots" : 4,
-					"numpoints" : 2,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1248.0, 487.5, 371.5, 221.0 ],
 					"presentation" : 1,
@@ -287,8 +286,8 @@
 							"domain_start" : 0.0,
 							"domain_end" : 1.0,
 							"domain_style" : "linear",
-							"domain_markers" : [ 0.0, 1.0 ],
-							"domain_labels" : [ 0.0, "R1", 1.0, "R2" ],
+							"domain_markers" : [ 0.0, 0.333333333333333, 0.666666666666667, 1.0 ],
+							"domain_labels" : [ 0.0, "R1", 0.333333333333333, "R2", 0.666666666666667, "R3", 1.0, "R4" ],
 							"range_start" : 2.0,
 							"range_end" : 12.0,
 							"range_style" : "linear",
@@ -435,7 +434,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 510.0, 1439.0, 50.0, 22.0 ],
-					"text" : "10."
+					"text" : "18."
 				}
 
 			}
@@ -590,13 +589,13 @@
 					"presentation_rect" : [ 564.5, 503.0, 48.0, 105.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -0.044094 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_initial" : [ -0.044094 ]
 						}
 
 					}
@@ -1699,7 +1698,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 133.5, 1619.5, 50.0, 22.0 ],
-					"text" : "10"
+					"text" : "12"
 				}
 
 			}
@@ -3448,7 +3447,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.25, 1939.0, 144.0, 22.0 ],
+					"patching_rect" : [ 139.25, 1977.0, 144.0, 22.0 ],
 					"text" : "udpsend localhost 12300"
 				}
 
@@ -3534,7 +3533,7 @@
 					"patching_rect" : [ 498.5, 278.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 213.0, 230.0, 68.0, 20.0 ],
-					"text" : "furniture",
+					"text" : "falling",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3560,7 +3559,7 @@
 					"patching_rect" : [ 498.5, 250.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 213.0, 202.0, 68.0, 20.0 ],
-					"text" : "moved",
+					"text" : "leaves",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3586,7 +3585,7 @@
 					"patching_rect" : [ 498.5, 223.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 213.0, 175.0, 68.0, 20.0 ],
-					"text" : "they",
+					"text" : "yellow",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3910,7 +3909,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 486.5, 596.5, 75.0, 22.0 ],
+					"patching_rect" : [ 481.5, 602.5, 75.0, 22.0 ],
 					"text" : "r RoundEnd"
 				}
 
@@ -4172,7 +4171,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 504.5, 703.0, 31.0, 22.0 ],
-					"text" : "2"
+					"text" : "4"
 				}
 
 			}
@@ -4249,13 +4248,13 @@
 					"presentation_rect" : [ 107.0, 268.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -0.044094 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_initial" : [ -0.044094 ]
 						}
 
 					}
@@ -4284,13 +4283,13 @@
 					"presentation_rect" : [ 149.5, 268.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -0.044094 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_initial" : [ -0.044094 ]
 						}
 
 					}
@@ -4308,7 +4307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.5, 558.0, 153.0, 22.0 ],
+					"patching_rect" : [ 464.5, 558.0, 153.0, 22.0 ],
 					"text" : "expr pow(10\\, (2 * $f1) / 20)"
 				}
 
@@ -4451,7 +4450,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-89",
-					"increment" : 3.0,
 					"maxclass" : "incdec",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -4520,7 +4518,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 336.0, 266.0, 101.0, 36.0 ],
-					"text" : "open ASLQ0101.wav"
+					"text" : "open ASLQ0104.wav"
 				}
 
 			}
@@ -6815,13 +6813,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-316", 0 ],
-					"source" : [ "obj-319", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"order" : 0,
 					"source" : [ "obj-32", 0 ]
@@ -8387,7 +8378,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-301", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -8395,7 +8386,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"order" : 1,
+					"order" : 3,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -8403,7 +8394,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -8529,9 +8520,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-83" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-84" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-432" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-84" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-83" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -8543,6 +8534,13 @@
 				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "getAngle",
+				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
