@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 2972.0, 1289.0 ],
+		"rect" : [ 41.0, 78.0, 1468.0, 809.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -671,6 +671,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1940.25, 634.62548828125, 112.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 187.25, 268.62548828125, 112.0, 36.0 ],
 					"text" : "expr $i2 + (2 * ($i1 - 1))"
 				}
 
@@ -683,6 +686,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1940.25, 603.12548828125, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 187.25, 237.12548828125, 50.0, 22.0 ],
 					"text" : "6"
 				}
 
@@ -695,6 +700,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
 					"patching_rect" : [ 1940.25, 569.12548828125, 40.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 187.25, 203.12548828125, 40.0, 22.0 ],
 					"text" : "Uzi"
 				}
 
@@ -707,6 +714,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1940.25, 518.62548828125, 152.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 187.25, 152.62548828125, 152.0, 22.0 ],
 					"text" : "expr (abs($i1 - $i2) / 2) + 2"
 				}
 

@@ -10,7 +10,7 @@
 	<Platform>Windows</Platform>
 	<OSCListenPort>12300</OSCListenPort>
 	<ReverbOrder>3D</ReverbOrder>
-	<NumSources>81</NumSources>
+	<NumSources>16</NumSources>
 	<Source0_x>-0.999847695</Source0_x>
 	<Source0_y>0.000000000</Source0_y>
 	<Source0_z>0.000000000</Source0_z>
@@ -65,7 +65,7 @@
 	<Source6_vol>0.501187000</Source6_vol>
 	<Source6_vol_dB>-6.000004049</Source6_vol_dB>
 	<Source6_sliderPosition>45</Source6_sliderPosition>
-	<Source_6_filePath>./../Max/ASLQ/ASLQ0101.WAV</Source_6_filePath>
+	<Source_6_filePath>./../Max/ASLQ/ASLQ0101.wav</Source_6_filePath>
 
 	<Source7_x>1.000000000</Source7_x>
 	<Source7_y>0.000000000</Source7_y>
@@ -73,7 +73,7 @@
 	<Source7_vol>0.501187000</Source7_vol>
 	<Source7_vol_dB>-6.000004049</Source7_vol_dB>
 	<Source7_sliderPosition>45</Source7_sliderPosition>
-	<Source_7_filePath>./../Max/ASLQ/ASLQ0102.WAV</Source_7_filePath>
+	<Source_7_filePath>./../Max/ASLQ/ASLQ0102.wav</Source_7_filePath>
 
 	<Source8_x>1.000000000</Source8_x>
 	<Source8_y>0.000000000</Source8_y>
@@ -81,7 +81,7 @@
 	<Source8_vol>0.501187000</Source8_vol>
 	<Source8_vol_dB>-6.000004049</Source8_vol_dB>
 	<Source8_sliderPosition>45</Source8_sliderPosition>
-	<Source_8_filePath>./../Max/ASLQ/ASLQ0103.WAV</Source_8_filePath>
+	<Source_8_filePath>./../Max/ASLQ/ASLQ0103.wav</Source_8_filePath>
 
 	<Source9_x>1.000000000</Source9_x>
 	<Source9_y>0.000000000</Source9_y>
@@ -89,7 +89,7 @@
 	<Source9_vol>0.501187000</Source9_vol>
 	<Source9_vol_dB>-6.000004049</Source9_vol_dB>
 	<Source9_sliderPosition>45</Source9_sliderPosition>
-	<Source_9_filePath>./../Max/ASLQ/ASLQ0104.WAV</Source_9_filePath>
+	<Source_9_filePath>./../Max/ASLQ/ASLQ0104.wav</Source_9_filePath>
 
 	<Source10_x>1.000000000</Source10_x>
 	<Source10_y>0.000000000</Source10_y>
@@ -97,7 +97,7 @@
 	<Source10_vol>0.501187000</Source10_vol>
 	<Source10_vol_dB>-6.000004049</Source10_vol_dB>
 	<Source10_sliderPosition>45</Source10_sliderPosition>
-	<Source_10_filePath>./../Max/ASLQ/ASLQ0105.WAV</Source_10_filePath>
+	<Source_10_filePath>./../Max/ASLQ/ASLQ0105.wav</Source_10_filePath>
 
 	<Source11_x>1.000000000</Source11_x>
 	<Source11_y>0.000000000</Source11_y>
@@ -105,7 +105,7 @@
 	<Source11_vol>0.501187000</Source11_vol>
 	<Source11_vol_dB>-6.000004049</Source11_vol_dB>
 	<Source11_sliderPosition>45</Source11_sliderPosition>
-	<Source_11_filePath>./../Max/ASLQ/ASLQ0106.WAV</Source_11_filePath>
+	<Source_11_filePath>./../Max/ASLQ/ASLQ0106.wav</Source_11_filePath>
 
 	<Source12_x>1.000000000</Source12_x>
 	<Source12_y>0.000000000</Source12_y>
@@ -113,7 +113,7 @@
 	<Source12_vol>0.501187000</Source12_vol>
 	<Source12_vol_dB>-6.000004049</Source12_vol_dB>
 	<Source12_sliderPosition>45</Source12_sliderPosition>
-	<Source_12_filePath>./../Max/ASLQ/ASLQ0107.WAV</Source_12_filePath>
+	<Source_12_filePath>./../Max/ASLQ/ASLQ0107.wav</Source_12_filePath>
 
 	<Source13_x>1.000000000</Source13_x>
 	<Source13_y>0.000000000</Source13_y>
@@ -121,7 +121,7 @@
 	<Source13_vol>0.501187000</Source13_vol>
 	<Source13_vol_dB>-6.000004049</Source13_vol_dB>
 	<Source13_sliderPosition>45</Source13_sliderPosition>
-	<Source_13_filePath>./../Max/ASLQ/ASLQ0108.WAV</Source_13_filePath>
+	<Source_13_filePath>./../Max/ASLQ/ASLQ0108.wav</Source_13_filePath>
 
 	<Source14_x>1.000000000</Source14_x>
 	<Source14_y>0.000000000</Source14_y>
@@ -129,7 +129,7 @@
 	<Source14_vol>0.501187000</Source14_vol>
 	<Source14_vol_dB>-6.000004049</Source14_vol_dB>
 	<Source14_sliderPosition>45</Source14_sliderPosition>
-	<Source_14_filePath>./../Max/ASLQ/ASLQ0109.WAV</Source_14_filePath>
+	<Source_14_filePath>./../Max/ASLQ/ASLQ0109.wav</Source_14_filePath>
 
 	<Source15_x>1.000000000</Source15_x>
 	<Source15_y>0.000000000</Source15_y>
@@ -137,526 +137,6 @@
 	<Source15_vol>0.501187000</Source15_vol>
 	<Source15_vol_dB>-6.000004049</Source15_vol_dB>
 	<Source15_sliderPosition>45</Source15_sliderPosition>
-	<Source_15_filePath>./../Max/ASLQ/ASLQ0110.WAV</Source_15_filePath>
-
-	<Source16_x>1.000000000</Source16_x>
-	<Source16_y>0.000000000</Source16_y>
-	<Source16_z>0.000000000</Source16_z>
-	<Source16_vol>0.501187000</Source16_vol>
-	<Source16_vol_dB>-6.000004049</Source16_vol_dB>
-	<Source16_sliderPosition>45</Source16_sliderPosition>
-	<Source_16_filePath>./../Max/ASLQ/ASLQ0111.WAV</Source_16_filePath>
-
-	<Source17_x>1.000000000</Source17_x>
-	<Source17_y>0.000000000</Source17_y>
-	<Source17_z>0.000000000</Source17_z>
-	<Source17_vol>0.501187000</Source17_vol>
-	<Source17_vol_dB>-6.000004049</Source17_vol_dB>
-	<Source17_sliderPosition>45</Source17_sliderPosition>
-	<Source_17_filePath>./../Max/ASLQ/ASLQ0112.WAV</Source_17_filePath>
-
-	<Source18_x>1.000000000</Source18_x>
-	<Source18_y>0.000000000</Source18_y>
-	<Source18_z>0.000000000</Source18_z>
-	<Source18_vol>0.501187000</Source18_vol>
-	<Source18_vol_dB>-6.000004049</Source18_vol_dB>
-	<Source18_sliderPosition>45</Source18_sliderPosition>
-	<Source_18_filePath>./../Max/ASLQ/ASLQ0113.WAV</Source_18_filePath>
-
-	<Source19_x>1.000000000</Source19_x>
-	<Source19_y>0.000000000</Source19_y>
-	<Source19_z>0.000000000</Source19_z>
-	<Source19_vol>0.501187000</Source19_vol>
-	<Source19_vol_dB>-6.000004049</Source19_vol_dB>
-	<Source19_sliderPosition>45</Source19_sliderPosition>
-	<Source_19_filePath>./../Max/ASLQ/ASLQ0114.WAV</Source_19_filePath>
-
-	<Source20_x>1.000000000</Source20_x>
-	<Source20_y>0.000000000</Source20_y>
-	<Source20_z>0.000000000</Source20_z>
-	<Source20_vol>0.501187000</Source20_vol>
-	<Source20_vol_dB>-6.000004049</Source20_vol_dB>
-	<Source20_sliderPosition>45</Source20_sliderPosition>
-	<Source_20_filePath>./../Max/ASLQ/ASLQ0115.WAV</Source_20_filePath>
-
-	<Source21_x>1.000000000</Source21_x>
-	<Source21_y>0.000000000</Source21_y>
-	<Source21_z>0.000000000</Source21_z>
-	<Source21_vol>0.501187000</Source21_vol>
-	<Source21_vol_dB>-6.000004049</Source21_vol_dB>
-	<Source21_sliderPosition>45</Source21_sliderPosition>
-	<Source_21_filePath>./../Max/ASLQ/ASLQ0201.WAV</Source_21_filePath>
-
-	<Source22_x>1.000000000</Source22_x>
-	<Source22_y>0.000000000</Source22_y>
-	<Source22_z>0.000000000</Source22_z>
-	<Source22_vol>0.501187000</Source22_vol>
-	<Source22_vol_dB>-6.000004049</Source22_vol_dB>
-	<Source22_sliderPosition>45</Source22_sliderPosition>
-	<Source_22_filePath>./../Max/ASLQ/ASLQ0202.WAV</Source_22_filePath>
-
-	<Source23_x>1.000000000</Source23_x>
-	<Source23_y>0.000000000</Source23_y>
-	<Source23_z>0.000000000</Source23_z>
-	<Source23_vol>0.501187000</Source23_vol>
-	<Source23_vol_dB>-6.000004049</Source23_vol_dB>
-	<Source23_sliderPosition>45</Source23_sliderPosition>
-	<Source_23_filePath>./../Max/ASLQ/ASLQ0203.WAV</Source_23_filePath>
-
-	<Source24_x>1.000000000</Source24_x>
-	<Source24_y>0.000000000</Source24_y>
-	<Source24_z>0.000000000</Source24_z>
-	<Source24_vol>0.501187000</Source24_vol>
-	<Source24_vol_dB>-6.000004049</Source24_vol_dB>
-	<Source24_sliderPosition>45</Source24_sliderPosition>
-	<Source_24_filePath>./../Max/ASLQ/ASLQ0204.WAV</Source_24_filePath>
-
-	<Source25_x>1.000000000</Source25_x>
-	<Source25_y>0.000000000</Source25_y>
-	<Source25_z>0.000000000</Source25_z>
-	<Source25_vol>0.501187000</Source25_vol>
-	<Source25_vol_dB>-6.000004049</Source25_vol_dB>
-	<Source25_sliderPosition>45</Source25_sliderPosition>
-	<Source_25_filePath>./../Max/ASLQ/ASLQ0205.WAV</Source_25_filePath>
-
-	<Source26_x>1.000000000</Source26_x>
-	<Source26_y>0.000000000</Source26_y>
-	<Source26_z>0.000000000</Source26_z>
-	<Source26_vol>0.501187000</Source26_vol>
-	<Source26_vol_dB>-6.000004049</Source26_vol_dB>
-	<Source26_sliderPosition>45</Source26_sliderPosition>
-	<Source_26_filePath>./../Max/ASLQ/ASLQ0206.WAV</Source_26_filePath>
-
-	<Source27_x>1.000000000</Source27_x>
-	<Source27_y>0.000000000</Source27_y>
-	<Source27_z>0.000000000</Source27_z>
-	<Source27_vol>0.501187000</Source27_vol>
-	<Source27_vol_dB>-6.000004049</Source27_vol_dB>
-	<Source27_sliderPosition>45</Source27_sliderPosition>
-	<Source_27_filePath>./../Max/ASLQ/ASLQ0207.WAV</Source_27_filePath>
-
-	<Source28_x>1.000000000</Source28_x>
-	<Source28_y>0.000000000</Source28_y>
-	<Source28_z>0.000000000</Source28_z>
-	<Source28_vol>0.501187000</Source28_vol>
-	<Source28_vol_dB>-6.000004049</Source28_vol_dB>
-	<Source28_sliderPosition>45</Source28_sliderPosition>
-	<Source_28_filePath>./../Max/ASLQ/ASLQ0208.WAV</Source_28_filePath>
-
-	<Source29_x>1.000000000</Source29_x>
-	<Source29_y>0.000000000</Source29_y>
-	<Source29_z>0.000000000</Source29_z>
-	<Source29_vol>0.501187000</Source29_vol>
-	<Source29_vol_dB>-6.000004049</Source29_vol_dB>
-	<Source29_sliderPosition>45</Source29_sliderPosition>
-	<Source_29_filePath>./../Max/ASLQ/ASLQ0209.WAV</Source_29_filePath>
-
-	<Source30_x>1.000000000</Source30_x>
-	<Source30_y>0.000000000</Source30_y>
-	<Source30_z>0.000000000</Source30_z>
-	<Source30_vol>0.501187000</Source30_vol>
-	<Source30_vol_dB>-6.000004049</Source30_vol_dB>
-	<Source30_sliderPosition>45</Source30_sliderPosition>
-	<Source_30_filePath>./../Max/ASLQ/ASLQ0210.WAV</Source_30_filePath>
-
-	<Source31_x>1.000000000</Source31_x>
-	<Source31_y>0.000000000</Source31_y>
-	<Source31_z>0.000000000</Source31_z>
-	<Source31_vol>0.501187000</Source31_vol>
-	<Source31_vol_dB>-6.000004049</Source31_vol_dB>
-	<Source31_sliderPosition>45</Source31_sliderPosition>
-	<Source_31_filePath>./../Max/ASLQ/ASLQ0211.WAV</Source_31_filePath>
-
-	<Source32_x>1.000000000</Source32_x>
-	<Source32_y>0.000000000</Source32_y>
-	<Source32_z>0.000000000</Source32_z>
-	<Source32_vol>0.501187000</Source32_vol>
-	<Source32_vol_dB>-6.000004049</Source32_vol_dB>
-	<Source32_sliderPosition>45</Source32_sliderPosition>
-	<Source_32_filePath>./../Max/ASLQ/ASLQ0212.WAV</Source_32_filePath>
-
-	<Source33_x>1.000000000</Source33_x>
-	<Source33_y>0.000000000</Source33_y>
-	<Source33_z>0.000000000</Source33_z>
-	<Source33_vol>0.501187000</Source33_vol>
-	<Source33_vol_dB>-6.000004049</Source33_vol_dB>
-	<Source33_sliderPosition>45</Source33_sliderPosition>
-	<Source_33_filePath>./../Max/ASLQ/ASLQ0213.WAV</Source_33_filePath>
-
-	<Source34_x>1.000000000</Source34_x>
-	<Source34_y>0.000000000</Source34_y>
-	<Source34_z>0.000000000</Source34_z>
-	<Source34_vol>0.501187000</Source34_vol>
-	<Source34_vol_dB>-6.000004049</Source34_vol_dB>
-	<Source34_sliderPosition>45</Source34_sliderPosition>
-	<Source_34_filePath>./../Max/ASLQ/ASLQ0214.WAV</Source_34_filePath>
-
-	<Source35_x>1.000000000</Source35_x>
-	<Source35_y>0.000000000</Source35_y>
-	<Source35_z>0.000000000</Source35_z>
-	<Source35_vol>0.501187000</Source35_vol>
-	<Source35_vol_dB>-6.000004049</Source35_vol_dB>
-	<Source35_sliderPosition>45</Source35_sliderPosition>
-	<Source_35_filePath>./../Max/ASLQ/ASLQ0215.WAV</Source_35_filePath>
-
-	<Source36_x>1.000000000</Source36_x>
-	<Source36_y>0.000000000</Source36_y>
-	<Source36_z>0.000000000</Source36_z>
-	<Source36_vol>0.501187000</Source36_vol>
-	<Source36_vol_dB>-6.000004049</Source36_vol_dB>
-	<Source36_sliderPosition>45</Source36_sliderPosition>
-	<Source_36_filePath>./../Max/ASLQ/ASLQ0301.WAV</Source_36_filePath>
-
-	<Source37_x>1.000000000</Source37_x>
-	<Source37_y>0.000000000</Source37_y>
-	<Source37_z>0.000000000</Source37_z>
-	<Source37_vol>0.501187000</Source37_vol>
-	<Source37_vol_dB>-6.000004049</Source37_vol_dB>
-	<Source37_sliderPosition>45</Source37_sliderPosition>
-	<Source_37_filePath>./../Max/ASLQ/ASLQ0302.WAV</Source_37_filePath>
-
-	<Source38_x>1.000000000</Source38_x>
-	<Source38_y>0.000000000</Source38_y>
-	<Source38_z>0.000000000</Source38_z>
-	<Source38_vol>0.501187000</Source38_vol>
-	<Source38_vol_dB>-6.000004049</Source38_vol_dB>
-	<Source38_sliderPosition>45</Source38_sliderPosition>
-	<Source_38_filePath>./../Max/ASLQ/ASLQ0303.WAV</Source_38_filePath>
-
-	<Source39_x>1.000000000</Source39_x>
-	<Source39_y>0.000000000</Source39_y>
-	<Source39_z>0.000000000</Source39_z>
-	<Source39_vol>0.501187000</Source39_vol>
-	<Source39_vol_dB>-6.000004049</Source39_vol_dB>
-	<Source39_sliderPosition>45</Source39_sliderPosition>
-	<Source_39_filePath>./../Max/ASLQ/ASLQ0304.WAV</Source_39_filePath>
-
-	<Source40_x>1.000000000</Source40_x>
-	<Source40_y>0.000000000</Source40_y>
-	<Source40_z>0.000000000</Source40_z>
-	<Source40_vol>0.501187000</Source40_vol>
-	<Source40_vol_dB>-6.000004049</Source40_vol_dB>
-	<Source40_sliderPosition>45</Source40_sliderPosition>
-	<Source_40_filePath>./../Max/ASLQ/ASLQ0305.WAV</Source_40_filePath>
-
-	<Source41_x>1.000000000</Source41_x>
-	<Source41_y>0.000000000</Source41_y>
-	<Source41_z>0.000000000</Source41_z>
-	<Source41_vol>0.501187000</Source41_vol>
-	<Source41_vol_dB>-6.000004049</Source41_vol_dB>
-	<Source41_sliderPosition>45</Source41_sliderPosition>
-	<Source_41_filePath>./../Max/ASLQ/ASLQ0306.WAV</Source_41_filePath>
-
-	<Source42_x>1.000000000</Source42_x>
-	<Source42_y>0.000000000</Source42_y>
-	<Source42_z>0.000000000</Source42_z>
-	<Source42_vol>0.501187000</Source42_vol>
-	<Source42_vol_dB>-6.000004049</Source42_vol_dB>
-	<Source42_sliderPosition>45</Source42_sliderPosition>
-	<Source_42_filePath>./../Max/ASLQ/ASLQ0307.WAV</Source_42_filePath>
-
-	<Source43_x>1.000000000</Source43_x>
-	<Source43_y>0.000000000</Source43_y>
-	<Source43_z>0.000000000</Source43_z>
-	<Source43_vol>0.501187000</Source43_vol>
-	<Source43_vol_dB>-6.000004049</Source43_vol_dB>
-	<Source43_sliderPosition>45</Source43_sliderPosition>
-	<Source_43_filePath>./../Max/ASLQ/ASLQ0308.WAV</Source_43_filePath>
-
-	<Source44_x>1.000000000</Source44_x>
-	<Source44_y>0.000000000</Source44_y>
-	<Source44_z>0.000000000</Source44_z>
-	<Source44_vol>0.501187000</Source44_vol>
-	<Source44_vol_dB>-6.000004049</Source44_vol_dB>
-	<Source44_sliderPosition>45</Source44_sliderPosition>
-	<Source_44_filePath>./../Max/ASLQ/ASLQ0309.WAV</Source_44_filePath>
-
-	<Source45_x>1.000000000</Source45_x>
-	<Source45_y>0.000000000</Source45_y>
-	<Source45_z>0.000000000</Source45_z>
-	<Source45_vol>0.501187000</Source45_vol>
-	<Source45_vol_dB>-6.000004049</Source45_vol_dB>
-	<Source45_sliderPosition>45</Source45_sliderPosition>
-	<Source_45_filePath>./../Max/ASLQ/ASLQ0310.WAV</Source_45_filePath>
-
-	<Source46_x>1.000000000</Source46_x>
-	<Source46_y>0.000000000</Source46_y>
-	<Source46_z>0.000000000</Source46_z>
-	<Source46_vol>0.501187000</Source46_vol>
-	<Source46_vol_dB>-6.000004049</Source46_vol_dB>
-	<Source46_sliderPosition>45</Source46_sliderPosition>
-	<Source_46_filePath>./../Max/ASLQ/ASLQ0311.WAV</Source_46_filePath>
-
-	<Source47_x>1.000000000</Source47_x>
-	<Source47_y>0.000000000</Source47_y>
-	<Source47_z>0.000000000</Source47_z>
-	<Source47_vol>0.501187000</Source47_vol>
-	<Source47_vol_dB>-6.000004049</Source47_vol_dB>
-	<Source47_sliderPosition>45</Source47_sliderPosition>
-	<Source_47_filePath>./../Max/ASLQ/ASLQ0312.WAV</Source_47_filePath>
-
-	<Source48_x>1.000000000</Source48_x>
-	<Source48_y>0.000000000</Source48_y>
-	<Source48_z>0.000000000</Source48_z>
-	<Source48_vol>0.501187000</Source48_vol>
-	<Source48_vol_dB>-6.000004049</Source48_vol_dB>
-	<Source48_sliderPosition>45</Source48_sliderPosition>
-	<Source_48_filePath>./../Max/ASLQ/ASLQ0313.WAV</Source_48_filePath>
-
-	<Source49_x>1.000000000</Source49_x>
-	<Source49_y>0.000000000</Source49_y>
-	<Source49_z>0.000000000</Source49_z>
-	<Source49_vol>0.501187000</Source49_vol>
-	<Source49_vol_dB>-6.000004049</Source49_vol_dB>
-	<Source49_sliderPosition>45</Source49_sliderPosition>
-	<Source_49_filePath>./../Max/ASLQ/ASLQ0314.WAV</Source_49_filePath>
-
-	<Source50_x>1.000000000</Source50_x>
-	<Source50_y>0.000000000</Source50_y>
-	<Source50_z>0.000000000</Source50_z>
-	<Source50_vol>0.501187000</Source50_vol>
-	<Source50_vol_dB>-6.000004049</Source50_vol_dB>
-	<Source50_sliderPosition>45</Source50_sliderPosition>
-	<Source_50_filePath>./../Max/ASLQ/ASLQ0315.WAV</Source_50_filePath>
-
-	<Source51_x>1.000000000</Source51_x>
-	<Source51_y>0.000000000</Source51_y>
-	<Source51_z>0.000000000</Source51_z>
-	<Source51_vol>0.501187000</Source51_vol>
-	<Source51_vol_dB>-6.000004049</Source51_vol_dB>
-	<Source51_sliderPosition>45</Source51_sliderPosition>
-	<Source_51_filePath>./../Max/ASLQ/ASLQ0401.WAV</Source_51_filePath>
-
-	<Source52_x>1.000000000</Source52_x>
-	<Source52_y>0.000000000</Source52_y>
-	<Source52_z>0.000000000</Source52_z>
-	<Source52_vol>0.501187000</Source52_vol>
-	<Source52_vol_dB>-6.000004049</Source52_vol_dB>
-	<Source52_sliderPosition>45</Source52_sliderPosition>
-	<Source_52_filePath>./../Max/ASLQ/ASLQ0402.WAV</Source_52_filePath>
-
-	<Source53_x>1.000000000</Source53_x>
-	<Source53_y>0.000000000</Source53_y>
-	<Source53_z>0.000000000</Source53_z>
-	<Source53_vol>0.501187000</Source53_vol>
-	<Source53_vol_dB>-6.000004049</Source53_vol_dB>
-	<Source53_sliderPosition>45</Source53_sliderPosition>
-	<Source_53_filePath>./../Max/ASLQ/ASLQ0403.WAV</Source_53_filePath>
-
-	<Source54_x>1.000000000</Source54_x>
-	<Source54_y>0.000000000</Source54_y>
-	<Source54_z>0.000000000</Source54_z>
-	<Source54_vol>0.501187000</Source54_vol>
-	<Source54_vol_dB>-6.000004049</Source54_vol_dB>
-	<Source54_sliderPosition>45</Source54_sliderPosition>
-	<Source_54_filePath>./../Max/ASLQ/ASLQ0404.WAV</Source_54_filePath>
-
-	<Source55_x>1.000000000</Source55_x>
-	<Source55_y>0.000000000</Source55_y>
-	<Source55_z>0.000000000</Source55_z>
-	<Source55_vol>0.501187000</Source55_vol>
-	<Source55_vol_dB>-6.000004049</Source55_vol_dB>
-	<Source55_sliderPosition>45</Source55_sliderPosition>
-	<Source_55_filePath>./../Max/ASLQ/ASLQ0405.WAV</Source_55_filePath>
-
-	<Source56_x>1.000000000</Source56_x>
-	<Source56_y>0.000000000</Source56_y>
-	<Source56_z>0.000000000</Source56_z>
-	<Source56_vol>0.501187000</Source56_vol>
-	<Source56_vol_dB>-6.000004049</Source56_vol_dB>
-	<Source56_sliderPosition>45</Source56_sliderPosition>
-	<Source_56_filePath>./../Max/ASLQ/ASLQ0406.WAV</Source_56_filePath>
-
-	<Source57_x>1.000000000</Source57_x>
-	<Source57_y>0.000000000</Source57_y>
-	<Source57_z>0.000000000</Source57_z>
-	<Source57_vol>0.501187000</Source57_vol>
-	<Source57_vol_dB>-6.000004049</Source57_vol_dB>
-	<Source57_sliderPosition>45</Source57_sliderPosition>
-	<Source_57_filePath>./../Max/ASLQ/ASLQ0407.WAV</Source_57_filePath>
-
-	<Source58_x>1.000000000</Source58_x>
-	<Source58_y>0.000000000</Source58_y>
-	<Source58_z>0.000000000</Source58_z>
-	<Source58_vol>0.501187000</Source58_vol>
-	<Source58_vol_dB>-6.000004049</Source58_vol_dB>
-	<Source58_sliderPosition>45</Source58_sliderPosition>
-	<Source_58_filePath>./../Max/ASLQ/ASLQ0408.WAV</Source_58_filePath>
-
-	<Source59_x>1.000000000</Source59_x>
-	<Source59_y>0.000000000</Source59_y>
-	<Source59_z>0.000000000</Source59_z>
-	<Source59_vol>0.501187000</Source59_vol>
-	<Source59_vol_dB>-6.000004049</Source59_vol_dB>
-	<Source59_sliderPosition>45</Source59_sliderPosition>
-	<Source_59_filePath>./../Max/ASLQ/ASLQ0409.WAV</Source_59_filePath>
-
-	<Source60_x>1.000000000</Source60_x>
-	<Source60_y>0.000000000</Source60_y>
-	<Source60_z>0.000000000</Source60_z>
-	<Source60_vol>0.501187000</Source60_vol>
-	<Source60_vol_dB>-6.000004049</Source60_vol_dB>
-	<Source60_sliderPosition>45</Source60_sliderPosition>
-	<Source_60_filePath>./../Max/ASLQ/ASLQ0410.WAV</Source_60_filePath>
-
-	<Source61_x>1.000000000</Source61_x>
-	<Source61_y>0.000000000</Source61_y>
-	<Source61_z>0.000000000</Source61_z>
-	<Source61_vol>0.501187000</Source61_vol>
-	<Source61_vol_dB>-6.000004049</Source61_vol_dB>
-	<Source61_sliderPosition>45</Source61_sliderPosition>
-	<Source_61_filePath>./../Max/ASLQ/ASLQ0411.WAV</Source_61_filePath>
-
-	<Source62_x>1.000000000</Source62_x>
-	<Source62_y>0.000000000</Source62_y>
-	<Source62_z>0.000000000</Source62_z>
-	<Source62_vol>0.501187000</Source62_vol>
-	<Source62_vol_dB>-6.000004049</Source62_vol_dB>
-	<Source62_sliderPosition>45</Source62_sliderPosition>
-	<Source_62_filePath>./../Max/ASLQ/ASLQ0412.WAV</Source_62_filePath>
-
-	<Source63_x>1.000000000</Source63_x>
-	<Source63_y>0.000000000</Source63_y>
-	<Source63_z>0.000000000</Source63_z>
-	<Source63_vol>0.501187000</Source63_vol>
-	<Source63_vol_dB>-6.000004049</Source63_vol_dB>
-	<Source63_sliderPosition>45</Source63_sliderPosition>
-	<Source_63_filePath>./../Max/ASLQ/ASLQ0413.WAV</Source_63_filePath>
-
-	<Source64_x>1.000000000</Source64_x>
-	<Source64_y>0.000000000</Source64_y>
-	<Source64_z>0.000000000</Source64_z>
-	<Source64_vol>0.501187000</Source64_vol>
-	<Source64_vol_dB>-6.000004049</Source64_vol_dB>
-	<Source64_sliderPosition>45</Source64_sliderPosition>
-	<Source_64_filePath>./../Max/ASLQ/ASLQ0414.WAV</Source_64_filePath>
-
-	<Source65_x>1.000000000</Source65_x>
-	<Source65_y>0.000000000</Source65_y>
-	<Source65_z>0.000000000</Source65_z>
-	<Source65_vol>0.501187000</Source65_vol>
-	<Source65_vol_dB>-6.000004049</Source65_vol_dB>
-	<Source65_sliderPosition>45</Source65_sliderPosition>
-	<Source_65_filePath>./../Max/ASLQ/ASLQ0415.WAV</Source_65_filePath>
-
-	<Source66_x>1.000000000</Source66_x>
-	<Source66_y>0.000000000</Source66_y>
-	<Source66_z>0.000000000</Source66_z>
-	<Source66_vol>0.501187000</Source66_vol>
-	<Source66_vol_dB>-6.000004049</Source66_vol_dB>
-	<Source66_sliderPosition>45</Source66_sliderPosition>
-	<Source_66_filePath>./../Max/ASLQ/ASLQ0501.WAV</Source_66_filePath>
-
-	<Source67_x>1.000000000</Source67_x>
-	<Source67_y>0.000000000</Source67_y>
-	<Source67_z>0.000000000</Source67_z>
-	<Source67_vol>0.501187000</Source67_vol>
-	<Source67_vol_dB>-6.000004049</Source67_vol_dB>
-	<Source67_sliderPosition>45</Source67_sliderPosition>
-	<Source_67_filePath>./../Max/ASLQ/ASLQ0502.WAV</Source_67_filePath>
-
-	<Source68_x>1.000000000</Source68_x>
-	<Source68_y>0.000000000</Source68_y>
-	<Source68_z>0.000000000</Source68_z>
-	<Source68_vol>0.501187000</Source68_vol>
-	<Source68_vol_dB>-6.000004049</Source68_vol_dB>
-	<Source68_sliderPosition>45</Source68_sliderPosition>
-	<Source_68_filePath>./../Max/ASLQ/ASLQ0503.WAV</Source_68_filePath>
-
-	<Source69_x>1.000000000</Source69_x>
-	<Source69_y>0.000000000</Source69_y>
-	<Source69_z>0.000000000</Source69_z>
-	<Source69_vol>0.501187000</Source69_vol>
-	<Source69_vol_dB>-6.000004049</Source69_vol_dB>
-	<Source69_sliderPosition>45</Source69_sliderPosition>
-	<Source_69_filePath>./../Max/ASLQ/ASLQ0504.WAV</Source_69_filePath>
-
-	<Source70_x>1.000000000</Source70_x>
-	<Source70_y>0.000000000</Source70_y>
-	<Source70_z>0.000000000</Source70_z>
-	<Source70_vol>0.501187000</Source70_vol>
-	<Source70_vol_dB>-6.000004049</Source70_vol_dB>
-	<Source70_sliderPosition>45</Source70_sliderPosition>
-	<Source_70_filePath>./../Max/ASLQ/ASLQ0505.WAV</Source_70_filePath>
-
-	<Source71_x>1.000000000</Source71_x>
-	<Source71_y>0.000000000</Source71_y>
-	<Source71_z>0.000000000</Source71_z>
-	<Source71_vol>0.501187000</Source71_vol>
-	<Source71_vol_dB>-6.000004049</Source71_vol_dB>
-	<Source71_sliderPosition>45</Source71_sliderPosition>
-	<Source_71_filePath>./../Max/ASLQ/ASLQ0506.WAV</Source_71_filePath>
-
-	<Source72_x>1.000000000</Source72_x>
-	<Source72_y>0.000000000</Source72_y>
-	<Source72_z>0.000000000</Source72_z>
-	<Source72_vol>0.501187000</Source72_vol>
-	<Source72_vol_dB>-6.000004049</Source72_vol_dB>
-	<Source72_sliderPosition>45</Source72_sliderPosition>
-	<Source_72_filePath>./../Max/ASLQ/ASLQ0507.WAV</Source_72_filePath>
-
-	<Source73_x>1.000000000</Source73_x>
-	<Source73_y>0.000000000</Source73_y>
-	<Source73_z>0.000000000</Source73_z>
-	<Source73_vol>0.501187000</Source73_vol>
-	<Source73_vol_dB>-6.000004049</Source73_vol_dB>
-	<Source73_sliderPosition>45</Source73_sliderPosition>
-	<Source_73_filePath>./../Max/ASLQ/ASLQ0508.WAV</Source_73_filePath>
-
-	<Source74_x>1.000000000</Source74_x>
-	<Source74_y>0.000000000</Source74_y>
-	<Source74_z>0.000000000</Source74_z>
-	<Source74_vol>0.501187000</Source74_vol>
-	<Source74_vol_dB>-6.000004049</Source74_vol_dB>
-	<Source74_sliderPosition>45</Source74_sliderPosition>
-	<Source_74_filePath>./../Max/ASLQ/ASLQ0509.WAV</Source_74_filePath>
-
-	<Source75_x>1.000000000</Source75_x>
-	<Source75_y>0.000000000</Source75_y>
-	<Source75_z>0.000000000</Source75_z>
-	<Source75_vol>0.501187000</Source75_vol>
-	<Source75_vol_dB>-6.000004049</Source75_vol_dB>
-	<Source75_sliderPosition>45</Source75_sliderPosition>
-	<Source_75_filePath>./../Max/ASLQ/ASLQ0510.WAV</Source_75_filePath>
-
-	<Source76_x>1.000000000</Source76_x>
-	<Source76_y>0.000000000</Source76_y>
-	<Source76_z>0.000000000</Source76_z>
-	<Source76_vol>0.501187000</Source76_vol>
-	<Source76_vol_dB>-6.000004049</Source76_vol_dB>
-	<Source76_sliderPosition>45</Source76_sliderPosition>
-	<Source_76_filePath>./../Max/ASLQ/ASLQ0511.WAV</Source_76_filePath>
-
-	<Source77_x>1.000000000</Source77_x>
-	<Source77_y>0.000000000</Source77_y>
-	<Source77_z>0.000000000</Source77_z>
-	<Source77_vol>0.501187000</Source77_vol>
-	<Source77_vol_dB>-6.000004049</Source77_vol_dB>
-	<Source77_sliderPosition>45</Source77_sliderPosition>
-	<Source_77_filePath>./../Max/ASLQ/ASLQ0512.WAV</Source_77_filePath>
-
-	<Source78_x>1.000000000</Source78_x>
-	<Source78_y>0.000000000</Source78_y>
-	<Source78_z>0.000000000</Source78_z>
-	<Source78_vol>0.501187000</Source78_vol>
-	<Source78_vol_dB>-6.000004049</Source78_vol_dB>
-	<Source78_sliderPosition>45</Source78_sliderPosition>
-	<Source_78_filePath>./../Max/ASLQ/ASLQ0513.WAV</Source_78_filePath>
-
-	<Source79_x>1.000000000</Source79_x>
-	<Source79_y>0.000000000</Source79_y>
-	<Source79_z>0.000000000</Source79_z>
-	<Source79_vol>0.501187000</Source79_vol>
-	<Source79_vol_dB>-6.000004049</Source79_vol_dB>
-	<Source79_sliderPosition>45</Source79_sliderPosition>
-	<Source_79_filePath>./../Max/ASLQ/ASLQ0514.WAV</Source_79_filePath>
-
-	<Source80_x>1.000000000</Source80_x>
-	<Source80_y>0.000000000</Source80_y>
-	<Source80_z>0.000000000</Source80_z>
-	<Source80_vol>0.501187000</Source80_vol>
-	<Source80_vol_dB>-6.000004049</Source80_vol_dB>
-	<Source80_sliderPosition>45</Source80_sliderPosition>
-	<Source_80_filePath>./../Max/ASLQ/ASLQ0515.WAV</Source_80_filePath>
+	<Source_15_filePath>./../Max/ASLQ/ASLQ0110.wav</Source_15_filePath>
 
 </BinauralApp>
