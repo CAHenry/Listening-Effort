@@ -81,7 +81,7 @@ class Test:
 
         for filename in os.listdir(sentences):
             cart = spherical_2_cartesian(1, 0, 0)
-            write_source(xml, source, cart, filename, "./../Max/ASLQ", gain, 20 * np.log10(gain))
+            write_source(xml, source, cart, filename, "./../Max/ASLQ_Matt", gain, 20 * np.log10(gain))
             source += 1
             xml.write("\n")
 
