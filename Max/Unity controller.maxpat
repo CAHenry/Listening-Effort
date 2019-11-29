@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 648.0, 128.0, 872.0, 953.0 ],
+		"rect" : [ 627.0, 81.0, 872.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -455,7 +455,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 200.0, 765.0, 214.0, 22.0 ],
-					"text" : "64.364037 342.437866 181.290482"
+					"text" : "346.574768 87.181694 344.462158"
 				}
 
 			}
@@ -627,7 +627,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 68.0, 253.0, 100.0, 22.0 ],
-					"prefix" : "c:/Users/timmb/Documents/windev/ListeningProjectAssets/Videos/Masking/"
+					"prefix" : "c:/Users/Craig/Documents/ListeningEffortAssets/Videos/Masking/"
 				}
 
 			}
@@ -661,8 +661,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.0, 63.0, 358.0, 22.0 ],
-					"text" : "c:/Users/timmb/Documents/windev/ListeningProjectAssets/Videos"
+					"patching_rect" : [ 126.0, 63.0, 304.0, 22.0 ],
+					"text" : "c:/Users/Craig/Documents/ListeningEffortAssets/Videos"
 				}
 
 			}
@@ -701,7 +701,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 700.0, 255.0, 100.0, 22.0 ],
-					"prefix" : "c:/Users/timmb/Documents/windev/ListeningProjectAssets/Videos/ASLQ Sentences/"
+					"prefix" : "c:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ Sentences/"
 				}
 
 			}
@@ -740,7 +740,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 486.0, 255.0, 100.0, 22.0 ],
-					"prefix" : "c:/Users/timmb/Documents/windev/ListeningProjectAssets/Videos/ASLQ Sentences/"
+					"prefix" : "c:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ Sentences/"
 				}
 
 			}
@@ -791,7 +791,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 270.0, 255.0, 100.0, 22.0 ],
-					"prefix" : "c:/Users/timmb/Documents/windev/ListeningProjectAssets/Videos/ASLQ Sentences/"
+					"prefix" : "c:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ Sentences/"
 				}
 
 			}
