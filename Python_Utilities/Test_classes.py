@@ -3,8 +3,10 @@ import os
 
 class Test:
     _test_conditions = []
+    _title = ""
 
-    def __init__(self, test_conditions):
+    def __init__(self, title, test_conditions):
+        self._title = title
         self._test_conditions.extend(test_conditions)
 
     def add_condition(self, test_condition):
@@ -43,12 +45,12 @@ class Test:
                 masker.source_index = source_count
                 source_count += num_sources
 
-            text_str += "%i %s %i %i %i\r" % (line_count, masker.name, masker.source_index, num_sources, condition.screen)
+            text_str += "%i %s %i %i %s %i \"%s\"\r" % (line_count, masker.name, masker.source_index, num_sources, masker.get_video(), condition.screen, condition.description)
             line_count += 1
 
         num_maskers = source_count
         source_count += len(os.listdir(sentences))
-        text.write("1 %i %i %i\r" % (source_count, num_maskers, len(self._test_conditions)))
+        text.write("1 %i %i %i \"%s\"\r" % (source_count, num_maskers, len(self._test_conditions), self._title))
         text.write(text_str)
         text.close()
 
@@ -69,7 +71,6 @@ class Test:
 
         gain = 0.501187
         for i, filename in enumerate(files):
-            # TODO: make reduction of gain here correct for number of sources - think about distance?
             asdf = positions[i]
             x, y = positions[i]
 
@@ -92,16 +93,17 @@ class Test:
 class TestCondition:
     masking_condition = 0
     screen = 0
+    description = ""
 
     def __init__(self, masking_condition, screen):
         self.masking_condition = masking_condition
         self.screen = screen
 
-
 class MaskingCondition:
     _num_sources = 0
     _sources = 0
     _files = []
+    _video = ""
     source_index = []
     name = ""
 
@@ -139,6 +141,9 @@ class MaskingCondition:
 
     def get_audio_files(self):
         return self._files
+
+    def set_video(self, video):
+        self._video = video
 
     def get_video(self):
         return self._video
