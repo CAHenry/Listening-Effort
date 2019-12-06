@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 627.0, 81.0, 872.0, 921.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -455,7 +455,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 200.0, 765.0, 214.0, 22.0 ],
-					"text" : "346.574768 87.181694 344.462158"
+					"text" : "7.149591 81.132751 4.932158"
 				}
 
 			}
@@ -599,8 +599,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 164.0, 202.0, 22.0 ],
-					"text" : "sprintf symout %s/ASLQ Sentences/"
+					"patching_rect" : [ 368.0, 164.0, 205.0, 22.0 ],
+					"text" : "sprintf symout %s/ASLQ_Sentences/"
 				}
 
 			}
@@ -620,7 +620,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-74",
-					"items" : [ "Condition_1.mp4", ",", "Condition_2.mp4", ",", "Condition_3.mp4" ],
+					"items" : [ "Condition_1.mp4", ",", "Condition_2.mp4", ",", "Condition_3.mp4", ",", "four.mp4", ",", "one_in_front.mp4", ",", "one_in_front_left.mp4", ",", "one_in_front_right.mp4", ",", "two_behind.MP4", ",", "two_in_front.MP4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
