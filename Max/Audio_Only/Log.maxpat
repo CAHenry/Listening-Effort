@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1051.0, 1273.0 ],
+		"rect" : [ 38.0, 136.0, 1069.0, 639.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -109,7 +109,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 331.0, 50.0, 22.0 ],
-					"text" : "4"
+					"text" : "1"
 				}
 
 			}
@@ -134,7 +134,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1989.0, 1000.0, 175.5, 36.0 ],
-					"text" : "11:59:26:05\\, 0 4 8. 0 ASLQ0110.wav"
+					"text" : "13:43:09:28\\, 0\\, 1\\, 10.000000\\,0\\, ASLQ0106.wav"
 				}
 
 			}
@@ -194,7 +194,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1526.833333333333485, 799.0, 131.0, 22.0 ],
-					"text" : "12:05:46:39"
+					"text" : "14:25:20:18"
 				}
 
 			}
@@ -218,7 +218,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1656.833333333333485, 905.0, 72.0, 22.0 ],
-					"text" : "12:05:46:39"
+					"text" : "14:25:20:18"
 				}
 
 			}
@@ -366,7 +366,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1677.833333333333485, 722.0, 131.0, 22.0 ],
-					"text" : "12:05:46:39"
+					"text" : "14:25:20:18"
 				}
 
 			}
@@ -633,7 +633,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 304.0, 335.0, 50.0, 22.0 ],
-					"text" : "4"
+					"text" : "1"
 				}
 
 			}
@@ -700,6 +700,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Franklin Gothic Medium",
 					"id" : "obj-35",
 					"items" : [ "Male", ",", "Female", ",", "Prefer", "not", "to", "specify" ],
 					"maxclass" : "umenu",
@@ -715,42 +716,48 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Franklin Gothic Medium",
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 785.0, 461.0, 51.0, 20.0 ],
+					"patching_rect" : [ 785.0, 461.0, 48.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 76.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 60.0, 76.0, 50.0, 20.0 ],
 					"text" : "Gender",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 2
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Franklin Gothic Medium",
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 651.0, 461.0, 72.0, 20.0 ],
+					"patching_rect" : [ 651.0, 461.0, 68.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 46.0, 72.0, 20.0 ],
+					"presentation_rect" : [ 41.0, 46.0, 68.0, 20.0 ],
 					"text" : "Age",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 2
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Franklin Gothic Medium",
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 517.0, 461.0, 101.0, 20.0 ],
+					"patching_rect" : [ 517.0, 461.0, 97.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 16.0, 102.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 16.0, 98.0, 20.0 ],
 					"text" : "Subject Number",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -769,6 +776,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Franklin Gothic Medium",
 					"id" : "obj-23",
 					"maxclass" : "number",
 					"minimum" : 0,
@@ -952,6 +960,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Franklin Gothic Medium",
 					"id" : "obj-40",
 					"maxclass" : "number",
 					"minimum" : 0,
@@ -986,7 +995,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1042.0, 883.0, 202.0, 36.0 ],
-					"text" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/"
+					"text" : "C:/Users/craig/Documents/Listening-Effort/Max/Audio_Only/"
 				}
 
 			}
@@ -1088,7 +1097,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1251.0, 1055.5, 586.0, 22.0 ],
-					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Results/2019_10_12_0_12545.csv"
+					"text" : "write C:/Users/craig/Documents/Listening-Effort/Max/Audio_Only/Logs/Results/2019_11_12_0_142520.csv"
 				}
 
 			}
@@ -1281,7 +1290,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 479.5, 1041.5, 570.0, 36.0 ],
-					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Back_ups/2019_10_12_0_12544.csv"
+					"text" : "write C:/Users/craig/Documents/Listening-Effort/Max/Audio_Only/Logs/Back_ups/2019_11_12_0_142519.csv"
 				}
 
 			}
