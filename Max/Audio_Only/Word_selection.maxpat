@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 134.0, 965.0, 919.0 ],
+		"rect" : [ 397.0, 85.0, 965.0, 919.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 87.5, 247.0, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -58,18 +70,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 477.5, 606.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 87.5, 188.0, 29.5, 22.0 ],
-					"text" : "+ 1"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 477.5, 390.0, 50.0, 22.0 ],
-					"text" : "1 1 1"
+					"text" : "0 0 0"
 				}
 
 			}
@@ -361,7 +361,7 @@
 					"patching_rect" : [ 327.5, 511.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 86.0, 68.0, 20.0 ],
-					"text" : "head",
+					"text" : "furniture",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -387,7 +387,7 @@
 					"patching_rect" : [ 327.5, 483.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 58.0, 68.0, 20.0 ],
-					"text" : "hit",
+					"text" : "moved",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -413,7 +413,7 @@
 					"patching_rect" : [ 327.5, 456.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 31.0, 68.0, 20.0 ],
-					"text" : "he",
+					"text" : "they",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -433,7 +433,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 31.0, 98.0, 86.0 ],
 					"size" : 3,
-					"values" : [ 1, 1, 1 ]
+					"values" : [ 0, 0, 0 ]
 				}
 
 			}
