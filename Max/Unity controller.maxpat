@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -455,7 +455,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 200.0, 765.0, 214.0, 22.0 ],
-					"text" : "7.149591 81.132751 4.932158"
+					"text" : "351.612183 96.11544 356.604004"
 				}
 
 			}
@@ -701,7 +701,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 700.0, 255.0, 100.0, 22.0 ],
-					"prefix" : "c:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ Sentences/"
+					"prefix" : "C:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ_Sentences/"
 				}
 
 			}
@@ -740,7 +740,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 486.0, 255.0, 100.0, 22.0 ],
-					"prefix" : "c:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ Sentences/"
+					"prefix" : "C:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ_Sentences/"
 				}
 
 			}
@@ -791,7 +791,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 270.0, 255.0, 100.0, 22.0 ],
-					"prefix" : "c:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ Sentences/"
+					"prefix" : "C:/Users/Craig/Documents/ListeningEffortAssets/Videos/ASLQ_Sentences/"
 				}
 
 			}
