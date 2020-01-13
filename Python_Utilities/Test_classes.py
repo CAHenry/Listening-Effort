@@ -69,14 +69,14 @@ class Test:
                   "\t<NumSources>%d</NumSources>\n" % (256, "3D", source_count))
         source = 0
 
-        gain = 0.501187
+        gain = 1
         for i, filename in enumerate(files):
             asdf = positions[i]
             x, y = positions[i]
 
             cart = spherical_2_cartesian(1, x, y)
-            write_source(xml, source, cart, filename, "./../Max/Masking", gain * 0.501187,
-                         20 * np.log10(gain * 0.501187))
+            write_source(xml, source, cart, filename, "./../Max/Masking", gain,
+                         20 * np.log10(gain))
             source += 1
             xml.write("\n")
 
