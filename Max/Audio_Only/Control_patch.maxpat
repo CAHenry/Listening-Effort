@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-112",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1216.0, 424.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-102",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1045.0, 521.0, 59.0, 22.0 ],
+					"text" : "route text"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-114",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -250,7 +274,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1213.5, 1716.0, 50.0, 146.0 ],
-					"text" : "/3DTI-OSC/receiver/pry 2.86234 3.124139 2.740167"
+					"text" : "/3DTI-OSC/receiver/pry -1.710423 1.413716 2.75762"
 				}
 
 			}
@@ -346,7 +370,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1622.0, 489.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "3"
 				}
 
 			}
@@ -381,7 +405,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
-					"hidden" : 1,
 					"id" : "obj-98",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -399,7 +422,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
-					"hidden" : 1,
 					"id" : "obj-93",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -415,13 +437,12 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
-					"hidden" : 1,
 					"id" : "obj-79",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1101.0, 520.75, 233.0, 47.0 ],
+					"patching_rect" : [ 1120.0, 513.0, 233.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 279.0, 232.0, 215.0, 61.0 ],
@@ -433,7 +454,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
-					"hidden" : 1,
 					"id" : "obj-71",
 					"keymode" : 1,
 					"maxclass" : "textedit",
@@ -441,17 +461,16 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1101.0, 480.0, 215.0, 41.0 ],
+					"patching_rect" : [ 1101.0, 467.25, 215.0, 41.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 279.0, 189.0, 215.0, 41.0 ],
-					"text" : "D:/Documents/Docs/Imperial/Assets"
+					"text" : "C:/Users/Craig/Documents/Assets"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
-					"hidden" : 1,
 					"id" : "obj-48",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -471,7 +490,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-59",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -492,7 +510,6 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.16078431372549, 0.32156862745098, 0.403921568627451, 1.0 ],
-					"hidden" : 1,
 					"id" : "obj-46",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -720,14 +737,14 @@
 					"fontname" : "Franklin Gothic Medium",
 					"fontsize" : 16.0,
 					"id" : "obj-80",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 605.0, 147.0, 226.0, 43.0 ],
+					"patching_rect" : [ 605.0, 147.0, 226.0, 61.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.299999999999955, 66.0, 726.0, 25.0 ],
-					"text" : "Two babble sources at 135 and 225 degrees. Screen to the left.",
+					"text" : "Four babble sources at 45, 135, 225 and 315 degrees. Screen to the right.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -750,6 +767,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
+					"hidden" : 1,
 					"id" : "obj-74",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1321,7 +1339,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 951.0, 563.0, 50.0, 22.0 ],
-					"text" : "8"
+					"text" : "3"
 				}
 
 			}
@@ -1333,31 +1351,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 808.0, 538.0, 50.0, 22.0 ],
-					"text" : "15"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 820.785714285714221, 596.75, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 820.785714285714221, 629.0, 201.0, 22.0 ],
-					"text" : "D:/Documents/Docs/Imperial/Assets"
+					"text" : "10"
 				}
 
 			}
@@ -1803,7 +1797,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 546.0, 504.0, 63.0, 22.0 ],
-									"text" : "-1.184253"
+									"text" : "10."
 								}
 
 							}
@@ -1815,7 +1809,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 365.0, 504.0, 50.0, 22.0 ],
-									"text" : "15"
+									"text" : "10"
 								}
 
 							}
@@ -2227,7 +2221,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 695.0, 447.0, 63.0, 105.0 ],
-									"text" : "8 14 9 11 10 9 11 10 12 17 13 13 14 16 15 15 16 8 17 12"
+									"text" : "8 8 9 14 10 13 11 10 12 15 13 11 14 17 15 12 16 16 17 9"
 								}
 
 							}
@@ -3251,13 +3245,13 @@
 					"presentation_rect" : [ 150.000000000000227, 277.0, 89.0, 92.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ -0.044094 ],
 							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[2]"
+							"parameter_type" : 0
 						}
 
 					}
@@ -3516,7 +3510,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
-					"hidden" : 1,
 					"id" : "obj-101",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -3610,6 +3603,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 4 ],
+					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
 					"order" : 1,
 					"source" : [ "obj-103", 0 ]
@@ -3656,6 +3656,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-112", 0 ]
 				}
 
 			}
@@ -3860,20 +3867,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 4 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -4572,7 +4565,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 4 ],
+					"destination" : [ "obj-102", 0 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -4792,35 +4785,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "SNR_calculation.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "~/Documents/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Word_selection.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "~/Documents/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Play_media.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "~/Documents/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Graph.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "~/Documents/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Log.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "~/Documents/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
