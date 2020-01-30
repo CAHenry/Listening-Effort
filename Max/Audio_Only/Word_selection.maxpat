@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 76.0, 1469.0, 715.0 ],
+		"rect" : [ 1402.0, 358.0, 1469.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,68 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1087.0, 354.0, 53.0, 22.0 ],
+					"text" : "read %s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 1097.405762000000323, 409.0, 141.0, 22.0 ],
+					"text" : "text ASLQwords_Matt.txt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 779.0, 306.0, 244.0, 89.0 ],
+					"presentation_linecount" : 5,
+					"text" : "Number of sources in test app (i)\nNumber of masking sources in test app (i)\nNumber of test conditions in test text file (i)\nTest Title (s)\nSentence text file (s)\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "int", "int", "int", "", "" ],
+					"patching_rect" : [ 1179.833333333333485, 269.0, 84.0, 22.0 ],
+					"text" : "unpack i i i s s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "Test info",
+					"id" : "obj-4",
+					"index" : 3,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 938.0, 112.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "message",
@@ -349,7 +411,7 @@
 					"patching_rect" : [ 327.5, 511.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 86.0, 68.0, 20.0 ],
-					"text" : "furniture",
+					"text" : "falling",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -375,7 +437,7 @@
 					"patching_rect" : [ 327.5, 483.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 58.0, 68.0, 20.0 ],
-					"text" : "moved",
+					"text" : "leaves",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -401,7 +463,7 @@
 					"patching_rect" : [ 327.5, 456.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 31.0, 68.0, 20.0 ],
-					"text" : "they",
+					"text" : "yellow",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -511,6 +573,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-295", 0 ],
 					"source" : [ "obj-101", 1 ]
 				}
@@ -541,6 +610,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-13", 4 ]
 				}
 
 			}
@@ -762,6 +838,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-335", 1 ],
 					"source" : [ "obj-393", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

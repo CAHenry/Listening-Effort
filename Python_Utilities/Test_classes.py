@@ -4,10 +4,12 @@ import os
 class Test:
     _test_conditions = []
     _title = ""
+    _sentences = ""
 
-    def __init__(self, title, test_conditions):
+    def __init__(self, title, test_conditions, sentences):
         self._title = title
         self._test_conditions.extend(test_conditions)
+        self.__sentences = sentences
 
     def add_condition(self, test_condition):
         self._test_conditions.extend(test_condition)
@@ -50,7 +52,7 @@ class Test:
 
         num_maskers = source_count
         source_count += len(os.listdir(sentences))
-        text.write("1 %i %i %i \"%s\"\r" % (source_count, num_maskers, len(self._test_conditions), self._title))
+        text.write("1 %i %i %i \"%s\"\r" % (source_count, num_maskers, len(self._test_conditions), self._title, self._sentences))
         text.write(text_str)
         text.close()
 
