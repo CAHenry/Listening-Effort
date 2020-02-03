@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,37 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-36",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 855.5, 176.0, 288.0, 89.0 ],
+					"text" : "Condition name (s)\nIndex of first masker in test condition (i)\nNumber of masking sources in test condition (i)\nMasking Video (s)\nScreen in use in test condition (i)\nTest condition description (s)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-66",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 532.0, 176.0, 244.0, 75.0 ],
+					"text" : "Number of sources in test app (i)\nNumber of masking sources in test app (i)\nNumber of test conditions in test text file (i)\nTest Title (s)\nSentence text file (s) (must be in path)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-63",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1980.0, 1045.5, 586.0, 22.0 ],
-					"text" : "write 2019_17_12_0_95455.csv"
+					"text" : "write Logs/Pupillometry/2020_3_2_0_134846.csv"
 				}
 
 			}
@@ -71,7 +95,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1840.5, 933.0, 104.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Logs/Pupillometry/"
 				}
 
@@ -198,7 +221,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1772.0, 58.0, 30.0, 30.0 ]
 				}
 
@@ -223,7 +246,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1526.833333333333485, 799.0, 131.0, 22.0 ],
-					"text" : "09:54:56:23"
+					"text" : "13:48:46:16"
 				}
 
 			}
@@ -247,7 +270,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1656.833333333333485, 905.0, 72.0, 22.0 ],
-					"text" : "09:54:56:23"
+					"text" : "13:48:46:16"
 				}
 
 			}
@@ -395,7 +418,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1677.833333333333485, 722.0, 131.0, 22.0 ],
-					"text" : "09:54:56:23"
+					"text" : "13:48:46:16"
 				}
 
 			}
@@ -843,7 +866,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 318.0, 54.0, 30.0, 30.0 ]
 				}
 
@@ -930,7 +953,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 158.0, 54.0, 30.0, 30.0 ]
 				}
 
@@ -1049,7 +1072,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1251.0, 1008.0, 30.0, 30.0 ]
 				}
 
@@ -1100,7 +1123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1251.0, 1055.5, 586.0, 22.0 ],
-					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Results/2019_17_12_0_95455.csv"
+					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Results/2020_3_2_0_134846.csv"
 				}
 
 			}
@@ -1293,7 +1316,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 479.5, 1041.5, 446.0, 50.0 ],
-					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Back_ups/2019_17_12_0_95454.csv"
+					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Back_ups/2020_3_2_0_134845.csv"
 				}
 
 			}
