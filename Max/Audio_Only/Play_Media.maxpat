@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 884.0, 667.0, 52.0, 22.0 ],
+					"patching_rect" : [ 947.0, 672.0, 52.0, 22.0 ],
 					"text" : "/ 10000."
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 884.0, 641.0, 86.0, 22.0 ],
+					"patching_rect" : [ 947.0, 645.0, 86.0, 22.0 ],
 					"text" : "random 10000"
 				}
 
@@ -68,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 873.5, 613.0, 29.5, 22.0 ],
+					"patching_rect" : [ 763.0, 604.75, 29.5, 22.0 ],
 					"text" : "t i b"
 				}
 
@@ -353,7 +353,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 720.0, 520.0, 29.5, 22.0 ],
+					"patching_rect" : [ 658.0, 518.0, 29.5, 22.0 ],
 					"text" : "+"
 				}
 
@@ -558,7 +558,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.5, 854.0, 227.0, 22.0 ],
+					"patching_rect" : [ 482.5, 844.0, 227.0, 22.0 ],
 					"text" : "sprintf /3DTI-OSC/source%i/pos %f %f 0."
 				}
 
@@ -776,7 +776,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.0, 891.0, 185.0, 22.0 ],
+					"patching_rect" : [ 419.0, 885.0, 185.0, 22.0 ],
 					"text" : "sprintf /3DTI-OSC/source%i/stop"
 				}
 
