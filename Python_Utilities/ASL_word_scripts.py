@@ -1,5 +1,5 @@
-f_old = open("C:\\Users\\craig\\Downloads\\OneDrive_2019-10-08\\SentInNoise 2016 Distribute\\ASLQwords.txt", "r")
-f_new = open("C:\\Users\\craig\\Documents\\Listening_effort\\Audio_App\\ASLQwords.txt", "w+")
+f_old = open("C:\\Users\\craig\\Documents\\Listening-Effort\\Max\\Audio_Only\\BKBQwords.txt", "r")
+f_new = open("C:\\Users\\craig\\Documents\\Listening-Effort\\Max\\Audio_Only\\BKBQwords_new.txt", "w+")
 
 for cnt, line in enumerate(f_old):
     line_cells = ['']*5
@@ -25,6 +25,6 @@ for cnt, line in enumerate(f_old):
     else:
         second = line_cells[1]
 
-    number = first + second
+    number = first + 's' + second
 
-    f_new.write(str(cnt + 1) + " ASLQ" + number + ".wav " + line_cells[2] + " " + line_cells[3] + " " + line_cells[4] + ";\r")
+    f_new.write(str(cnt + 1) + " bkbgl" + number + ".wav " + line_cells[2] + " " + line_cells[3] + " " + line_cells[4] + ";\r")

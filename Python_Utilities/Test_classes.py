@@ -9,7 +9,7 @@ class Test:
     def __init__(self, title, test_conditions, sentences):
         self._title = title
         self._test_conditions.extend(test_conditions)
-        self.__sentences = sentences
+        self._sentences = sentences
 
     def add_condition(self, test_condition):
         self._test_conditions.extend(test_condition)
@@ -84,7 +84,7 @@ class Test:
 
         for filename in os.listdir(sentences):
             cart = spherical_2_cartesian(1, 0, 0)
-            write_source(xml, source, cart, filename, "./../Max/ASLQ_Matt", gain, 20 * np.log10(gain))
+            write_source(xml, source, cart, filename, sentences, gain, 20 * np.log10(gain))
             source += 1
             xml.write("\n")
 

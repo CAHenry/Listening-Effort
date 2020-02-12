@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1051.0, 1273.0 ],
+		"rect" : [ -1878.0, 134.0, 876.0, 393.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -55,8 +55,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1925.833333333333485, 753.0, 157.0, 22.0 ],
-					"text" : "pack %s %f %f %f %f %f %i"
+					"patching_rect" : [ 1925.833333333333485, 753.0, 83.0, 22.0 ],
+					"text" : "pack s f f f f f i"
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1980.0, 1045.5, 586.0, 22.0 ],
-					"text" : "write Logs/Pupillometry/2020_4_2_0_111729.csv"
+					"text" : "write Logs/Pupillometry/2020_12_2_0_15165.csv"
 				}
 
 			}
@@ -294,7 +294,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1526.833333333333485, 799.0, 131.0, 22.0 ],
-					"text" : "11:17:30:46"
+					"text" : "15:16:06:56"
 				}
 
 			}
@@ -318,7 +318,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1656.833333333333485, 905.0, 72.0, 22.0 ],
-					"text" : "11:17:30:46"
+					"text" : "15:16:06:56"
 				}
 
 			}
@@ -466,7 +466,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1677.833333333333485, 722.0, 131.0, 22.0 ],
-					"text" : "11:17:30:46"
+					"text" : "15:16:06:56"
 				}
 
 			}
@@ -1035,7 +1035,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1042.0, 883.0, 202.0, 36.0 ],
-					"text" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/"
+					"text" : "C:/Users/craig/Documents/Listening-Effort/Max/Audio_Only/"
 				}
 
 			}
@@ -1123,7 +1123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1251.0, 1055.5, 586.0, 22.0 ],
-					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Results/2020_4_2_0_111729.csv"
+					"text" : "write C:/Users/craig/Documents/Listening-Effort/Max/Audio_Only/Logs/Results/2020_12_2_0_15165.csv"
 				}
 
 			}
@@ -1316,7 +1316,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 479.5, 1041.5, 446.0, 50.0 ],
-					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Back_ups/2020_4_2_0_111728.csv"
+					"text" : "write C:/Users/craig/Documents/Listening-Effort/Max/Audio_Only/Logs/Back_ups/2020_12_2_0_15164.csv"
 				}
 
 			}
