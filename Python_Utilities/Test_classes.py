@@ -52,7 +52,7 @@ class Test:
 
         num_maskers = source_count
         source_count += len(os.listdir(sentences))
-        text.write("1 %i %i %i \"%s\", \"%s\"\r" % (source_count, num_maskers, len(self._test_conditions), self._title, self._sentences))
+        text.write("1 %i %i %i \"%s\" \"%s\"\r" % (source_count, num_maskers, len(self._test_conditions), self._title, self._sentences))
         text.write(text_str)
         text.close()
 
