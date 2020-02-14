@@ -17,7 +17,7 @@
 	<Source0_vol>1.000000000</Source0_vol>
 	<Source0_vol_dB>0.000000000</Source0_vol_dB>
 	<Source0_sliderPosition>45</Source0_sliderPosition>
-	<Source_0_filePath>./../Max/Masking/Babble_1.wav</Source_0_filePath>
+	<Source_0_filePath>./../Max/Masking/Speech_2_edited.wav</Source_0_filePath>
 
 	<Source1_x>-0.706999085</Source1_x>
 	<Source1_y>-0.706999085</Source1_y>
@@ -25,7 +25,7 @@
 	<Source1_vol>1.000000000</Source1_vol>
 	<Source1_vol_dB>0.000000000</Source1_vol_dB>
 	<Source1_sliderPosition>45</Source1_sliderPosition>
-	<Source_1_filePath>./../Max/Masking/Babble_2.wav</Source_1_filePath>
+	<Source_1_filePath>./../Max/Masking/Speech_4_edited.wav</Source_1_filePath>
 
 	<Source2_x>0.706999085</Source2_x>
 	<Source2_y>0.706999085</Source2_y>
@@ -33,7 +33,7 @@
 	<Source2_vol>1.000000000</Source2_vol>
 	<Source2_vol_dB>0.000000000</Source2_vol_dB>
 	<Source2_sliderPosition>45</Source2_sliderPosition>
-	<Source_2_filePath>./../Max/Masking/Babble_1.wav</Source_2_filePath>
+	<Source_2_filePath>./../Max/Masking/Speech_1_edited.wav</Source_2_filePath>
 
 	<Source3_x>-0.706999085</Source3_x>
 	<Source3_y>0.706999085</Source3_y>
@@ -41,7 +41,7 @@
 	<Source3_vol>1.000000000</Source3_vol>
 	<Source3_vol_dB>0.000000000</Source3_vol_dB>
 	<Source3_sliderPosition>45</Source3_sliderPosition>
-	<Source_3_filePath>./../Max/Masking/Babble_2.wav</Source_3_filePath>
+	<Source_3_filePath>./../Max/Masking/Speech_2_edited.wav</Source_3_filePath>
 
 	<Source4_x>-0.706999085</Source4_x>
 	<Source4_y>-0.706999085</Source4_y>
@@ -49,7 +49,7 @@
 	<Source4_vol>1.000000000</Source4_vol>
 	<Source4_vol_dB>0.000000000</Source4_vol_dB>
 	<Source4_sliderPosition>45</Source4_sliderPosition>
-	<Source_4_filePath>./../Max/Masking/Babble_3.wav</Source_4_filePath>
+	<Source_4_filePath>./../Max/Masking/Speech_3_edited.wav</Source_4_filePath>
 
 	<Source5_x>0.706999085</Source5_x>
 	<Source5_y>-0.706999085</Source5_y>
@@ -57,7 +57,7 @@
 	<Source5_vol>1.000000000</Source5_vol>
 	<Source5_vol_dB>0.000000000</Source5_vol_dB>
 	<Source5_sliderPosition>45</Source5_sliderPosition>
-	<Source_5_filePath>./../Max/Masking/Babble_4.wav</Source_5_filePath>
+	<Source_5_filePath>./../Max/Masking/Speech_4_edited.wav</Source_5_filePath>
 
 	<Source6_x>0.999847695</Source6_x>
 	<Source6_y>0.000000000</Source6_y>
@@ -65,7 +65,7 @@
 	<Source6_vol>1.000000000</Source6_vol>
 	<Source6_vol_dB>0.000000000</Source6_vol_dB>
 	<Source6_sliderPosition>45</Source6_sliderPosition>
-	<Source_6_filePath>./../Max/Masking/Babble_1.wav</Source_6_filePath>
+	<Source_6_filePath>./../Max/Masking/Speech_3_edited.wav</Source_6_filePath>
 
 	<Source7_x>1.000000000</Source7_x>
 	<Source7_y>0.000000000</Source7_y>

@@ -3,18 +3,18 @@ import Test_classes as le
 
 babble_front = le.MaskingCondition("Babble_front", 1)
 babble_front.set_source_positions([1, 0])
-babble_front.set_audio_files("Babble_1.wav")
+babble_front.set_audio_files("Speech_3_edited.wav")
 babble_front.set_video("one_in_front.mp4")
 
 babble_behind = le.MaskingCondition("Babble_behind", 2)
 babble_behind.set_source_positions([[1, 135], [1, 225]])
-babble_behind.set_audio_files(["Babble_1.wav", "Babble_2.wav"])
+babble_behind.set_audio_files(["Speech_2_edited.wav", "Speech_4_edited.wav"])
 babble_behind.set_video("two_behind.mp4")
 
 
 around = le.MaskingCondition("around", 4)
 around.set_source_positions([[1, 45], [1, 135], [1, 225], [1, 315]])
-around.set_audio_files(["Babble_1.wav", "Babble_2.wav", "Babble_3.wav", "Babble_4.wav"])
+around.set_audio_files(["Speech_1_edited.wav", "Speech_2_edited.wav", "Speech_3_edited.wav", "Speech_4_edited.wav"])
 around.set_video("all_around.mp4")
 
 babble_front_2_TC = le.TestCondition(babble_front, 2)
