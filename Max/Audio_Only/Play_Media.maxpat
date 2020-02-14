@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 742.0, 85.0, 1843.0, 1273.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 628.0, 940.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "Root folder containing videos",
+					"id" : "obj-25",
+					"index" : 7,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1683.0, 306.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -196,9 +220,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 558.0, 441.0, 32.0, 22.0 ],
-					"text" : "t b b"
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 558.0, 441.0, 29.5, 22.0 ],
+					"text" : "t b i"
 				}
 
 			}
@@ -318,7 +342,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1233.0, 672.0, 197.0, 50.0 ],
-					"text" : "/video/play 0 D:/Documents/Docs/Imperial/Assets/Masking/two_behind.mp4"
+					"text" : "/video/play 0 C:/Users/Craig/Documents/Assets/Masking/one_in_front.mp4"
 				}
 
 			}
@@ -421,12 +445,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-103",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1332.0, 583.75, 101.0, 22.0 ],
-					"text" : "two_behind.mp4"
+					"patching_rect" : [ 1332.0, 583.75, 101.0, 36.0 ],
+					"text" : "one_in_front.mp4"
 				}
 
 			}
@@ -511,19 +536,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1443.0, 636.75, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-65",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.5, 757.75, 29.5, 22.0 ],
-					"text" : "10"
+					"patching_rect" : [ 535.0, 750.0, 29.5, 36.0 ],
+					"text" : "bang"
 				}
 
 			}
@@ -616,7 +642,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1443.0, 465.75, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "29"
 				}
 
 			}
@@ -636,11 +662,11 @@
 				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1568.0, 457.0, 205.0, 22.0 ],
-					"text" : "sprintf symout %s/ASLQ_Sentences/"
+					"patching_rect" : [ 1568.0, 457.0, 127.0, 22.0 ],
+					"text" : "sprintf symout %s/%s/"
 				}
 
 			}
@@ -648,14 +674,14 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-52",
-					"items" : [ "ASLQ0101.mp4", ",", "ASLQ0102.mp4", ",", "ASLQ0103.mp4", ",", "ASLQ0104.mp4", ",", "ASLQ0105.mp4", ",", "ASLQ0106.mp4", ",", "ASLQ0107.mp4", ",", "ASLQ0108.mp4", ",", "ASLQ0109.mp4", ",", "ASLQ0110.mp4" ],
+					"items" : [ "bkbgl01s01.avi", ",", "bkbgl01s02.avi", ",", "bkbgl01s03.avi", ",", "bkbgl01s04.avi", ",", "bkbgl01s05.avi", ",", "bkbgl01s06.avi", ",", "bkbgl01s07.avi", ",", "bkbgl01s08.avi", ",", "bkbgl01s09.avi", ",", "bkbgl01s10.avi", ",", "bkbgl01s11.avi", ",", "bkbgl01s12.avi", ",", "bkbgl01s13.avi", ",", "bkbgl01s14.avi", ",", "bkbgl01s15.avi", ",", "bkbgl01s16.avi", ",", "bkbgl02s01.avi", ",", "bkbgl02s02.avi", ",", "bkbgl02s03.avi", ",", "bkbgl02s04.avi", ",", "bkbgl02s05.avi", ",", "bkbgl02s06.avi", ",", "bkbgl02s07.avi", ",", "bkbgl02s08.avi", ",", "bkbgl02s09.avi", ",", "bkbgl02s10.avi", ",", "bkbgl02s11.avi", ",", "bkbgl02s12.avi", ",", "bkbgl02s13.avi", ",", "bkbgl02s14.avi", ",", "bkbgl02s15.avi", ",", "bkbgl02s16.avi", ",", "bkbgl03s01.avi", ",", "bkbgl03s02.avi", ",", "bkbgl03s03.avi", ",", "bkbgl03s04.avi", ",", "bkbgl03s05.avi", ",", "bkbgl03s06.avi", ",", "bkbgl03s07.avi", ",", "bkbgl03s08.avi", ",", "bkbgl03s09.avi", ",", "bkbgl03s10.avi", ",", "bkbgl03s11.avi", ",", "bkbgl03s12.avi", ",", "bkbgl03s13.avi", ",", "bkbgl03s14.avi", ",", "bkbgl03s15.avi", ",", "bkbgl03s16.avi", ",", "bkbgl04s01.avi", ",", "bkbgl04s02.avi", ",", "bkbgl04s03.avi", ",", "bkbgl04s04.avi", ",", "bkbgl04s05.avi", ",", "bkbgl04s06.avi", ",", "bkbgl04s07.avi", ",", "bkbgl04s08.avi", ",", "bkbgl04s09.avi", ",", "bkbgl04s10.avi", ",", "bkbgl04s11.avi", ",", "bkbgl04s12.avi", ",", "bkbgl04s13.avi", ",", "bkbgl04s14.avi", ",", "bkbgl04s15.avi", ",", "bkbgl04s16.avi", ",", "bkbgl05s01.avi", ",", "bkbgl05s02.avi", ",", "bkbgl05s03.avi", ",", "bkbgl05s04.avi", ",", "bkbgl05s05.avi", ",", "bkbgl05s06.avi", ",", "bkbgl05s07.avi", ",", "bkbgl05s08.avi", ",", "bkbgl05s09.avi", ",", "bkbgl05s10.avi", ",", "bkbgl05s11.avi", ",", "bkbgl05s12.avi", ",", "bkbgl05s13.avi", ",", "bkbgl05s14.avi", ",", "bkbgl05s15.avi", ",", "bkbgl05s16.avi" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1443.0, 559.0, 100.0, 22.0 ],
-					"prefix" : "D:/Documents/Docs/Imperial/Assets/ASLQ_Sentences/"
+					"prefix" : "C:/Users/Craig/Documents/Assets/bkb/"
 				}
 
 			}
@@ -712,12 +738,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.5, 583.75, 29.5, 22.0 ],
-					"text" : "10"
+					"patching_rect" : [ 371.5, 583.75, 29.5, 36.0 ],
+					"text" : "bang"
 				}
 
 			}
@@ -736,12 +763,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.0, 645.75, 29.5, 22.0 ],
-					"text" : "10"
+					"patching_rect" : [ 419.0, 645.75, 29.5, 36.0 ],
+					"text" : "bang"
 				}
 
 			}
@@ -763,9 +791,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 535.0, 535.0, 32.0, 22.0 ],
-					"text" : "t b b"
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 535.0, 535.0, 29.5, 22.0 ],
+					"text" : "t b i"
 				}
 
 			}
@@ -985,6 +1013,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 1 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
