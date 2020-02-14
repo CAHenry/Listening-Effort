@@ -1,4 +1,4 @@
-f_old = open("C:\\Users\\craig\\Documents\\Listening-Effort\\Max\\Audio_Only\\BKBQwords.txt", "r")
+f_old = open("C:\\Users\\craig\\Documents\\Listening-Effort\\Max\\Audio_Only\\BKBQwordsreduced.txt", "r")
 f_new = open("C:\\Users\\craig\\Documents\\Listening-Effort\\Max\\Audio_Only\\BKBQwords_new.txt", "w+")
 
 for cnt, line in enumerate(f_old):

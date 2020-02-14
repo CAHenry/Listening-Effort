@@ -1,0 +1,9 @@
+Subject Number, 0, Age,
+Test condition, Round Number, SNR, Number of words correct, File loaded
+0, 3, 10.000000,0, bkbgl05s05.wav
+0, 4, 12.000000,0, bkbgl01s09.wav
+0, 5, 14.000000,0, bkbgl02s13.wav
+0, 6, 16.000000,3, bkbgl01s04.wav
+0, 7, 10.000000,3, bkbgl03s08.wav
+0, 8, 4.000000,3, bkbgl04s15.wav
+0, 9, -2.000000,0, bkbgl04s01.wav
