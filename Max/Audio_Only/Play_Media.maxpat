@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 779.0, 1852.0, 235.0 ],
+		"rect" : [ 988.0, 85.0, 890.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,14 +39,12 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-70",
-					"linecount" : 4,
+					"id" : "obj-29",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.0, 960.0, 50.0, 64.0 ],
-					"text" : "/3DTI-OSC/source45/play"
+					"patching_rect" : [ 1514.0, 783.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -59,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.0, 487.0, 216.0, 50.0 ],
-					"text" : "1 C:/Users/Craig/Documents/Assets/bkb/bkbgl03s06.avi"
+					"text" : "1 D:/Documents/Assets/bkb/bkbgl04s13.avi"
 				}
 
 			}
@@ -84,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1301.0, 374.0, 50.0, 22.0 ],
-					"text" : "45"
+					"text" : "68"
 				}
 
 			}
@@ -96,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1412.0, 374.0, 50.0, 22.0 ],
-					"text" : "38"
+					"text" : "61"
 				}
 
 			}
@@ -109,17 +107,6 @@
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 299.0, 759.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.0, 940.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -417,7 +404,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1233.0, 672.0, 147.0, 50.0 ],
-					"text" : "/video/play 0 /Masking/two_behind.mp4"
+					"text" : "/video/play 0 D:/Documents/Assets/Masking/two_behind.mp4"
 				}
 
 			}
@@ -622,7 +609,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 535.0, 750.0, 29.5, 22.0 ],
-					"text" : "45"
+					"text" : "68"
 				}
 
 			}
@@ -715,7 +702,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1443.0, 465.75, 50.0, 22.0 ],
-					"text" : "37"
+					"text" : "60"
 				}
 
 			}
@@ -754,7 +741,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1443.0, 559.0, 100.0, 22.0 ],
-					"prefix" : "C:/Users/Craig/Documents/Assets/bkb/"
+					"prefix" : "D:/Documents/Assets/bkb/"
 				}
 
 			}
@@ -816,7 +803,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 371.5, 583.75, 29.5, 22.0 ],
-					"text" : "45"
+					"text" : "68"
 				}
 
 			}
@@ -840,7 +827,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 419.0, 645.75, 29.5, 22.0 ],
-					"text" : "45"
+					"text" : "68"
 				}
 
 			}
@@ -908,7 +895,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1135,15 +1131,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 1,
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-70", 1 ],
-					"order" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 

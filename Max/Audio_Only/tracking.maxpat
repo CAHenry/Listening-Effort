@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 76.0, 1069.0, 715.0 ],
+		"rect" : [ 42.0, 85.0, 1069.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 168.0, 545.0, 30.0, 30.0 ]
 				}
 
@@ -202,8 +202,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.0, 901.0, 297.0, 22.0 ],
-					"text" : "/3DTI-OSC/receiver/pry -1.710423 1.413716 2.75762"
+					"patching_rect" : [ 99.0, 901.0, 302.0, 22.0 ],
+					"text" : "/3DTI-OSC/receiver/pry 3.036873 -3.12414 -0.296706"
 				}
 
 			}
