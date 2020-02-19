@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1452.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 2956.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 641.0, 1011.0, 50.0, 36.0 ],
+					"patching_rect" : [ 641.0, 1011.0, 53.0, 36.0 ],
 					"text" : "1 -1. -1. 0 0"
 				}
 
@@ -1004,7 +1004,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1639.0, 844.0, 131.0, 22.0 ],
+					"patching_rect" : [ 1752.0, 857.0, 131.0, 22.0 ],
 					"text" : "r N_correct_words_req"
 				}
 
@@ -1016,7 +1016,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1525.283333333333303, 844.0, 88.0, 22.0 ],
+					"patching_rect" : [ 1556.283333333333303, 844.0, 88.0, 22.0 ],
 					"text" : "r UpdateGraph"
 				}
 
@@ -1028,7 +1028,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1395.716666666666697, 844.0, 90.0, 22.0 ],
+					"patching_rect" : [ 1464.283333333333303, 844.0, 90.0, 22.0 ],
 					"text" : "r test_condition"
 				}
 
@@ -1043,7 +1043,7 @@
 					"id" : "obj-125",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Graph_ver2.maxpat",
+					"name" : "Graph.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -1076,7 +1076,7 @@
 					"id" : "obj-105",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Log_ver2.maxpat",
+					"name" : "Log.maxpat",
 					"numinlets" : 11,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1437,13 +1437,13 @@
 					"presentation_rect" : [ 203.000000000000227, 305.0, 89.0, 92.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -0.044094 ],
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_initial" : [ -0.044094 ]
 						}
 
 					}
@@ -1717,7 +1717,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2703,7 +2703,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3189,7 +3189,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3400,8 +3400,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 693.0, 268.0, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0,
-										"precision" : 6
+										"embed" : 0
 									}
 ,
 									"text" : "coll test"
@@ -5056,49 +5055,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Play_Media.maxpat",
-				"bootpath" : "D:/Documents/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Word_selection.maxpat",
-				"bootpath" : "D:/Documents/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SNR_calculation.maxpat",
-				"bootpath" : "D:/Documents/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tracking.maxpat",
-				"bootpath" : "D:/Documents/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "StoppingRule.maxpat",
-				"bootpath" : "D:/Documents/Listening-Effort/Max/Audio_Only",
+				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Log_ver2.maxpat",
-				"bootpath" : "D:/Documents/Listening-Effort/Max/Audio_Only",
+				"name" : "Log.maxpat",
+				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Graph_ver2.maxpat",
-				"bootpath" : "D:/Documents/Listening-Effort/Max/Audio_Only",
+				"name" : "Graph.maxpat",
+				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -474,7 +474,7 @@
 				"box" : 				{
 					"comment" : "Num_words_req",
 					"id" : "obj-99",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -583,7 +583,7 @@
 				"box" : 				{
 					"comment" : "SNR",
 					"id" : "obj-82",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -839,7 +839,7 @@
 				"box" : 				{
 					"comment" : "Data dump finished",
 					"id" : "obj-54",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -936,7 +936,7 @@
 				"box" : 				{
 					"comment" : "Test condition",
 					"id" : "obj-26",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -949,7 +949,7 @@
 				"box" : 				{
 					"comment" : "Data",
 					"id" : "obj-28",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2014,6 +2014,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

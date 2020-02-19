@@ -26,7 +26,7 @@ around_3_TC.description = "Four babble sources at 45, 135, 225 and 315 degrees. 
 
 
 test_one = le.Test("Example test", [babble_behind_1_TC, around_3_TC, babble_front_2_TC], "BKBQwords_new.txt")
-test_one.output("..\\XMLs", "Example_test", "./../Max/BKB")
+test_one.output("..\\Test_Files", "Example_test", "./../Media/BKB")
 
 # babble_front = le.MaskingCondition("Babble_front", 1)
 # babble_front.set_source_positions([1, 0])

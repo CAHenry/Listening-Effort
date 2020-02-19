@@ -77,7 +77,7 @@ class Test:
             x, y = positions[i]
 
             cart = spherical_2_cartesian(1, x, y)
-            write_source(xml, source, cart, filename, "./../Max/Masking", gain,
+            write_source(xml, source, cart, filename, "./../Media/Masking", gain,
                          20 * np.log10(gain))
             source += 1
             xml.write("\n")
