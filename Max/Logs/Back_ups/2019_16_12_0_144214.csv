@@ -1,7 +1,0 @@
-Subject Number, 0, Age,
-Test condition, Round Number, SNR, Number of words correct, File loaded
-1, 1, 10.000000,0, ASLQ0110.wav
-2, 2, 16.000000,0, ASLQ0110.wav
-2, 3, 22.000000,3, ASLQ0110.wav
-2, 4, 16.000000,3, ASLQ0110.wav
-2, 5, 10.000000,0, ASLQ0110.wav
