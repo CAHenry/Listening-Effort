@@ -45,8 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 817.0, 473.0, 193.0, 64.0 ],
-					"text" : "around \"Four babble sources at 45, 135, 225 and 315 degrees. Screen to the right.\" 4 8 all_around.mp4 4.018"
+					"patching_rect" : [ 677.5, 248.0, 193.0, 64.0 ],
+					"text" : "around \"Four babble sources at 45, 135, 225 and 315 degrees. Screen to the right.\" 4 8 all_around.mp4 3"
 				}
 
 			}
@@ -1858,13 +1858,13 @@
 					"presentation_rect" : [ 203.000000000000227, 305.0, 89.0, 92.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -0.044094 ]
+							"parameter_initial" : [ -0.044094 ],
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
@@ -2144,7 +2144,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+						"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2173,6 +2173,30 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 6,
+									"outlettype" : [ "", "", "int", "int", "", "int" ],
+									"patching_rect" : [ 918.25, 173.5, 93.0, 22.0 ],
+									"text" : "unpack s s i i s i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"linecount" : 7,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1173.0, 28.5, 288.0, 117.0 ],
+									"text" : "Condition name (s)\nTest condition description (s)\nIndex of first masker in test condition (i)\nNumber of masking sources in test condition (i)\nMasking Video (s)\nScreen in use in test condition (i)\n\n"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -2180,30 +2204,6 @@
 									"outlettype" : [ "bang", "" ],
 									"patching_rect" : [ 957.5, 112.0, 29.5, 22.0 ],
 									"text" : "t b l"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 6,
-									"outlettype" : [ "", "int", "int", "", "int", "" ],
-									"patching_rect" : [ 957.5, 156.0, 93.0, 22.0 ],
-									"text" : "unpack s i i s i s"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"linecount" : 9,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 706.0, 35.0, 174.0, 131.0 ],
-									"text" : "Condition name (s)\nIndex of first masker in test condition (i)\nNumber of masking sources in test condition (i)\nMasking Video (s)\nScreen in use in test condition (i)\nTest condition description (s)"
 								}
 
 							}
@@ -2510,7 +2510,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 365.0, 504.0, 50.0, 22.0 ],
-									"text" : "80"
+									"text" : "78"
 								}
 
 							}
@@ -2550,7 +2550,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-28", 0 ],
 									"source" : [ "obj-11", 1 ]
 								}
 
@@ -2559,29 +2559,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
 									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 1 ],
-									"source" : [ "obj-12", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"order" : 1,
-									"source" : [ "obj-12", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-86", 1 ],
-									"order" : 0,
-									"source" : [ "obj-12", 2 ]
 								}
 
 							}
@@ -2633,6 +2610,29 @@
 								"patchline" : 								{
 									"destination" : [ "obj-211", 1 ],
 									"source" : [ "obj-212", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 1 ],
+									"source" : [ "obj-28", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"order" : 1,
+									"source" : [ "obj-28", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-86", 1 ],
+									"order" : 0,
+									"source" : [ "obj-28", 3 ]
 								}
 
 							}
@@ -4909,7 +4909,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-188", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -4917,7 +4917,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 2 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-20", 0 ]
 				}
 
