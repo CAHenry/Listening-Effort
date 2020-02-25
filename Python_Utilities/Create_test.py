@@ -1,27 +1,33 @@
 import Test_classes as le
+import os
 
+male_babble = os.listdir("C:\\Users\\craig\\Documents\\Listening-Effort\\Media\\Masking\\male_babble")
+female_babble = os.listdir("C:\\Users\\craig\\Documents\\Listening-Effort\\Media\\Masking\\male_babble")
 
-babble_front = le.MaskingCondition("Babble_front", 1)
-babble_front.set_source_positions([1, 0])
-babble_front.set_audio_files("Speech_3_edited.wav")
+idling = ["Idling/test.mp4"] * 3
+screens = le.Screens("C:\\Users\\craig\\Documents\\Listening-Effort\\Test_Files\\positions.txt", idling)
+
+babble_front = le.MaskingCondition("Babble_front", 2)
+babble_front.set_source_positions([[1, 0], [1, 0]])
+babble_front.set_audio_files([male_babble.pop(), female_babble.pop()])
 babble_front.set_video("one_in_front.mp4")
 
-babble_behind = le.MaskingCondition("Babble_behind", 2)
-babble_behind.set_source_positions([[1, 135], [1, 225]])
-babble_behind.set_audio_files(["Speech_2_edited.wav", "Speech_4_edited.wav"])
+babble_behind = le.MaskingCondition("Babble_behind", 4)
+babble_behind.set_source_positions([[1, 135], [1, 135], [1, 225], [1, 225]])
+babble_behind.set_audio_files([male_babble.pop(), female_babble.pop(), male_babble.pop(), female_babble.pop()])
 babble_behind.set_video("two_behind.mp4")
 
 
-around = le.MaskingCondition("around", 4)
-around.set_source_positions([[1, 45], [1, 135], [1, 225], [1, 315]])
-around.set_audio_files(["Speech_1_edited.wav", "Speech_2_edited.wav", "Speech_3_edited.wav", "Speech_4_edited.wav"])
+around = le.MaskingCondition("around", 8)
+around.set_source_positions([[1, 45], [1, 45], [1, 135], [1, 135], [1, 225], [1, 225], [1, 315], [1, 315]])
+around.set_audio_files([male_babble.pop(), female_babble.pop(), male_babble.pop(), female_babble.pop(), male_babble.pop(), female_babble.pop(), male_babble.pop(), female_babble.pop()])
 around.set_video("all_around.mp4")
 
-babble_front_2_TC = le.TestCondition(babble_front, 2)
+babble_front_2_TC = le.TestCondition(babble_front, 2, screens)
 babble_front_2_TC.description = "One babble source directly in front of the participant. Screen in front."
-babble_behind_1_TC = le.TestCondition(babble_behind, 1)
+babble_behind_1_TC = le.TestCondition(babble_behind, 1, screens)
 babble_behind_1_TC.description = "Two babble sources at 135 and 225 degrees. Screen to the left."
-around_3_TC = le.TestCondition(around, 3)
+around_3_TC = le.TestCondition(around, 3, screens)
 around_3_TC.description = "Four babble sources at 45, 135, 225 and 315 degrees. Screen to the right."
 
 

@@ -46,10 +46,8 @@ class Test:
                 positions.extend(masker.get_source_positions())
                 masker.source_index = source_count
                 source_count += num_sources
-            screen_positions = [screen.position for screen in condition.screens]
-            screen_idling = [screen.idle for screen in condition.screens]
 
-            text_str += "%i %s \"%s\" %i %i %s %i \r" % (line_count, masker.name, condition.description, masker.source_index, num_sources, masker.get_video(), len(condition.screen))
+            text_str += "%i %s \"%s\" %i %i %s %s %s \r" % (line_count, masker.name, condition.description, masker.source_index, num_sources, masker.get_video(), condition.screens.positions_str, condition.screens.idling_str)
 
             line_count += 1
 
@@ -96,17 +94,33 @@ class Test:
 
 class TestCondition:
     masking_condition = 0
+    screen = 0
     screens = []
     description = ""
 
-    def __init__(self, masking_condition, screens):
+    def __init__(self, masking_condition, screen, screens):
         self.masking_condition = masking_condition
+        self.screen = screen
         self.screens = screens
 
 
-class Screen:
-    position = []
-    idle = ""
+class Screens:
+    positions = []
+    positions_str = ""
+    idling = []
+    idling_str = ""
+
+    def __init__(self, text_positions, idling):
+        text_file = open(text_positions, "r")
+        for line in text_file:
+            self.positions.append(line.split())
+            line = line.replace('\r', '')
+            line = line.replace('\n', '')
+            self.positions_str += line
+
+        for idle in idling:
+            self.idling_str += idle + " "
+        self.idling = idling
 
 
 class MaskingCondition:
