@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 988.0, 85.0, 890.0, 920.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1070.0, 398.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1041.0, 275.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -57,7 +79,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.0, 487.0, 216.0, 50.0 ],
-					"text" : "1 D:/Documents/Assets/bkb/bkbgl04s13.avi"
+					"text" : "0 D:/Documents/Assets/Masking/two_behind.mp4"
 				}
 
 			}
@@ -82,7 +104,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1301.0, 374.0, 50.0, 22.0 ],
-					"text" : "68"
+					"text" : "80"
 				}
 
 			}
@@ -94,7 +116,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1412.0, 374.0, 50.0, 22.0 ],
-					"text" : "61"
+					"text" : "66"
 				}
 
 			}
@@ -404,7 +426,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1233.0, 672.0, 147.0, 50.0 ],
-					"text" : "/video/play 0 D:/Documents/Assets/Masking/two_behind.mp4"
+					"text" : "/video/play 0 D:/Documents/Assets/Masking/Example test"
 				}
 
 			}
@@ -512,7 +534,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1332.0, 583.75, 102.0, 22.0 ],
-					"text" : "two_behind.mp4"
+					"text" : "\"Example test\""
 				}
 
 			}
@@ -597,7 +619,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1443.0, 636.75, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -702,7 +724,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1443.0, 465.75, 50.0, 22.0 ],
-					"text" : "60"
+					"text" : "65"
 				}
 
 			}
@@ -734,7 +756,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-52",
-					"items" : [ "bkbgl01s01.avi", ",", "bkbgl01s02.avi", ",", "bkbgl01s03.avi", ",", "bkbgl01s04.avi", ",", "bkbgl01s05.avi", ",", "bkbgl01s06.avi", ",", "bkbgl01s07.avi", ",", "bkbgl01s08.avi", ",", "bkbgl01s09.avi", ",", "bkbgl01s10.avi", ",", "bkbgl01s11.avi", ",", "bkbgl01s12.avi", ",", "bkbgl01s13.avi", ",", "bkbgl01s14.avi", ",", "bkbgl01s15.avi", ",", "bkbgl01s16.avi", ",", "bkbgl02s01.avi", ",", "bkbgl02s02.avi", ",", "bkbgl02s03.avi", ",", "bkbgl02s04.avi", ",", "bkbgl02s05.avi", ",", "bkbgl02s06.avi", ",", "bkbgl02s07.avi", ",", "bkbgl02s08.avi", ",", "bkbgl02s09.avi", ",", "bkbgl02s10.avi", ",", "bkbgl02s11.avi", ",", "bkbgl02s12.avi", ",", "bkbgl02s13.avi", ",", "bkbgl02s14.avi", ",", "bkbgl02s15.avi", ",", "bkbgl02s16.avi", ",", "bkbgl03s01.avi", ",", "bkbgl03s02.avi", ",", "bkbgl03s03.avi", ",", "bkbgl03s04.avi", ",", "bkbgl03s05.avi", ",", "bkbgl03s06.avi", ",", "bkbgl03s07.avi", ",", "bkbgl03s08.avi", ",", "bkbgl03s09.avi", ",", "bkbgl03s10.avi", ",", "bkbgl03s11.avi", ",", "bkbgl03s12.avi", ",", "bkbgl03s13.avi", ",", "bkbgl03s14.avi", ",", "bkbgl03s15.avi", ",", "bkbgl03s16.avi", ",", "bkbgl04s01.avi", ",", "bkbgl04s02.avi", ",", "bkbgl04s03.avi", ",", "bkbgl04s04.avi", ",", "bkbgl04s05.avi", ",", "bkbgl04s06.avi", ",", "bkbgl04s07.avi", ",", "bkbgl04s08.avi", ",", "bkbgl04s09.avi", ",", "bkbgl04s10.avi", ",", "bkbgl04s11.avi", ",", "bkbgl04s12.avi", ",", "bkbgl04s13.avi", ",", "bkbgl04s14.avi", ",", "bkbgl04s15.avi", ",", "bkbgl04s16.avi", ",", "bkbgl05s01.avi", ",", "bkbgl05s02.avi", ",", "bkbgl05s03.avi", ",", "bkbgl05s04.avi", ",", "bkbgl05s05.avi", ",", "bkbgl05s06.avi", ",", "bkbgl05s07.avi", ",", "bkbgl05s08.avi", ",", "bkbgl05s09.avi", ",", "bkbgl05s10.avi", ",", "bkbgl05s11.avi", ",", "bkbgl05s12.avi", ",", "bkbgl05s13.avi", ",", "bkbgl05s14.avi", ",", "bkbgl05s15.avi", ",", "bkbgl05s16.avi" ],
+					"items" : [ "bkbgl01s01.avi", ",", "bkbgl01s02.avi", ",", "bkbgl01s03.avi", ",", "bkbgl01s04.avi", ",", "bkbgl01s05.avi", ",", "bkbgl01s06.avi", ",", "bkbgl01s07.avi", ",", "bkbgl01s08.avi", ",", "bkbgl01s09.avi", ",", "bkbgl01s11.avi", ",", "bkbgl01s12.avi", ",", "bkbgl01s14.avi", ",", "bkbgl01s15.avi", ",", "bkbgl01s16.avi", ",", "bkbgl02s01.avi", ",", "bkbgl02s02.avi", ",", "bkbgl02s04.avi", ",", "bkbgl02s05.avi", ",", "bkbgl02s06.avi", ",", "bkbgl02s07.avi", ",", "bkbgl02s08.avi", ",", "bkbgl02s09.avi", ",", "bkbgl02s10.avi", ",", "bkbgl02s12.avi", ",", "bkbgl02s13.avi", ",", "bkbgl02s14.avi", ",", "bkbgl02s15.avi", ",", "bkbgl02s16.avi", ",", "bkbgl03s01.avi", ",", "bkbgl03s02.avi", ",", "bkbgl03s03.avi", ",", "bkbgl03s04.avi", ",", "bkbgl03s06.avi", ",", "bkbgl03s07.avi", ",", "bkbgl03s08.avi", ",", "bkbgl03s09.avi", ",", "bkbgl03s10.avi", ",", "bkbgl03s12.avi", ",", "bkbgl03s13.avi", ",", "bkbgl03s14.avi", ",", "bkbgl03s15.avi", ",", "bkbgl03s16.avi", ",", "bkbgl04s01.avi", ",", "bkbgl04s02.avi", ",", "bkbgl04s03.avi", ",", "bkbgl04s04.avi", ",", "bkbgl04s05.avi", ",", "bkbgl04s07.avi", ",", "bkbgl04s08.avi", ",", "bkbgl04s09.avi", ",", "bkbgl04s11.avi", ",", "bkbgl04s12.avi", ",", "bkbgl04s13.avi", ",", "bkbgl04s14.avi", ",", "bkbgl04s15.avi", ",", "bkbgl04s16.avi", ",", "bkbgl05s01.avi", ",", "bkbgl05s02.avi", ",", "bkbgl05s04.avi", ",", "bkbgl05s05.avi", ",", "bkbgl05s06.avi", ",", "bkbgl05s07.avi", ",", "bkbgl05s08.avi", ",", "bkbgl05s09.avi", ",", "bkbgl05s11.avi", ",", "bkbgl05s12.avi", ",", "bkbgl05s13.avi", ",", "bkbgl05s14.avi", ",", "bkbgl05s15.avi", ",", "bkbgl05s16.avi" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1249,6 +1271,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
+					"order" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 1 ],
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1415,6 +1446,14 @@
 					"destination" : [ "obj-64", 0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 1 ],
+					"order" : 2,
+					"source" : [ "obj-7", 3 ]
 				}
 
 			}

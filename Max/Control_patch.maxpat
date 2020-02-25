@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 480.0, 281.0, 1469.0, 715.0 ],
+		"rect" : [ 212.0, 269.0, 1469.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-188",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 817.0, 473.0, 193.0, 64.0 ],
+					"text" : "around \"Four babble sources at 45, 135, 225 and 315 degrees. Screen to the right.\" 4 8 all_around.mp4 4.018"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-179",
 					"maxclass" : "newobj",
@@ -116,7 +129,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-24",
@@ -2498,7 +2510,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 365.0, 504.0, 50.0, 22.0 ],
-									"text" : "25"
+									"text" : "80"
 								}
 
 							}
@@ -4896,7 +4908,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-188", 1 ],
+					"order" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 2 ],
+					"order" : 1,
 					"source" : [ "obj-20", 0 ]
 				}
 

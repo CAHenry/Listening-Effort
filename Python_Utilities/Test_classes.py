@@ -47,7 +47,7 @@ class Test:
                 masker.source_index = source_count
                 source_count += num_sources
 
-            text_str += "%i %s \"%s\" %i %i %s %s %s \r" % (line_count, masker.name, condition.description, masker.source_index, num_sources, masker.get_video(), condition.screens.positions_str, condition.screens.idling_str)
+            text_str += "%i %s \"%s\" %i %i %s %i %s %s \r" % (line_count, masker.name, condition.description, masker.source_index, num_sources, masker.get_video(), condition.screen, condition.screens.positions_str, condition.screens.idling_str)
 
             line_count += 1
 
