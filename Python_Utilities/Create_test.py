@@ -1,12 +1,15 @@
 import Test_classes as le
 import os
-
-male_babble = os.listdir("C:\\Users\\craig\\Documents\\Listening-Effort\\Media\\Masking\\male_babble")
-female_babble = os.listdir("C:\\Users\\craig\\Documents\\Listening-Effort\\Media\\Masking\\male_babble")
+# root = "D:\\Documents\\Docs\\Imperial\\Listening-Effort\\"
+root = "C:\\Users\\craig\\Documents\\Listening-Effort\\"
+male_dir = root + "Media\\Masking\\male_babble"
+male_babble = [os.path.join(male_dir, file) for file in os.listdir(male_dir)]
+female_dir = root + "Media\\Masking\\female_babble"
+female_babble = [os.path.join(female_dir, file) for file in os.listdir(female_dir)]
 
 idling = ["Idling/test.mp4"] * 3
-screens = le.Screens("C:\\Users\\craig\\Documents\\Listening-Effort\\Test_Files\\positions.txt", idling)
-
+screens = le.Screens(root + "Test_Files\\positions.txt", idling)
+print(male_babble.pop())
 babble_front = le.MaskingCondition("Babble_front", 2)
 babble_front.set_source_positions([[1, 0], [1, 0]])
 babble_front.set_audio_files([male_babble.pop(), female_babble.pop()])
@@ -32,7 +35,7 @@ around_3_TC.description = "Four babble sources at 45, 135, 225 and 315 degrees. 
 
 
 test_one = le.Test("Example test", [babble_behind_1_TC, around_3_TC, babble_front_2_TC], "BKBQwords_new.txt")
-test_one.output("..\\Test_Files", "Example_test", "./../Media/BKB")
+test_one.output("Example_test", r"C:\Users\craig\Documents\Listening-Effort\Media\BKB")
 
 # babble_front = le.MaskingCondition("Babble_front", 1)
 # babble_front.set_source_positions([1, 0])

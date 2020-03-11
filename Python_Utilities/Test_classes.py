@@ -1,6 +1,6 @@
 import numpy as np
 import os
-
+import posixpath
 class Test:
     _test_conditions = []
     _title = ""
@@ -14,7 +14,7 @@ class Test:
     def add_condition(self, test_condition):
         self._test_conditions.extend(test_condition)
 
-    def output(self, root, test_name, sentences):
+    def output(self, test_name, sentences_dir, output_dir="../Test_Files"):
 
         def write_source(file, num, pos, name, location, vol, vol_db, slider_pos=45):
             file.write("\t<Source%d_x>%.9f</Source%d_x>\n" % (num, pos[0], num))
@@ -25,11 +25,12 @@ class Test:
             file.write("\t<Source%d_sliderPosition>%d</Source%d_sliderPosition>\n" % (num, slider_pos, num))
             file_path = location + "/" + name
             file.write("\t<Source_%d_filePath>%s</Source_%d_filePath>\n" % (num, file_path, num))
-        xml_filename = test_name + ".xml"
-        text_filename = test_name + ".txt"
 
-        xml = open(os.path.join(root, xml_filename), "w+")
-        text = open(os.path.join(root, text_filename), "w+")
+        xml_filename = os.path.join(output_dir, test_name + ".xml")
+        text_filename = os.path.join(output_dir, test_name + ".txt")
+
+        xml = open(xml_filename, "w+")
+        text = open(text_filename, "w+")
         text_str = ""
         maskers = []
         files = []
@@ -52,9 +53,11 @@ class Test:
             line_count += 1
 
         num_maskers = source_count
-        source_count += len(os.listdir(sentences))
+        source_count += len(os.listdir(sentences_dir))
         text.write("1 %i %i %i \"%s\" \"%s\"\r" % (source_count, num_maskers, len(self._test_conditions), self._title, self._sentences))
         text.write(text_str)
+        text.write("%i %s \"%s\" %i %i %s %i %s %s \r" % (line_count, "End of Test", "Finished!", -1, -1, "_", 1, "_", "_")
+)
         text.close()
 
         xml.write("<BinauralApp>\n"
@@ -73,18 +76,20 @@ class Test:
         source = 0
 
         gain = 1
+
         for i, filename in enumerate(files):
             x, y = positions[i]
 
             cart = spherical_2_cartesian(1, x, y)
-            write_source(xml, source, cart, filename, "./../Media/Masking", gain,
+            filepath, filename = os.path.split(filename)
+            write_source(xml, source, cart, filename, get_rel_path(output_dir, filepath), gain,
                          20 * np.log10(gain))
             source += 1
             xml.write("\n")
 
-        for filename in os.listdir(sentences):
+        for filename in os.listdir(sentences_dir):
             cart = spherical_2_cartesian(1, 0, 0)
-            write_source(xml, source, cart, filename, sentences, gain, 20 * np.log10(gain))
+            write_source(xml, source, cart, filename, get_rel_path(output_dir, sentences_dir), gain, 20 * np.log10(gain))
             source += 1
             xml.write("\n")
 
@@ -185,5 +190,10 @@ def spherical_2_cartesian(r, phi, theta):
     return [x, y, z]
 
 
+def get_rel_path(source, destination):
+    out = os.path.relpath(destination, source)
+    output = out.replace('\\', '/')
+    output = './' + output
+    return output
 
 
