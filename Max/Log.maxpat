@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1654.0, 402.0, 1202.0, 833.0 ],
+		"rect" : [ 27.0, 82.0, 1469.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,13 +53,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"linecount" : 14,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 921.0, 596.0, 50.0, 202.0 ],
-					"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Results/2020____0__.csv"
+					"patching_rect" : [ 921.0, 596.0, 50.0, 188.0 ],
+					"text" : "write C:/Users/craig/Documents/Listening-Effort/Max/Logs/Results/2020_4_3__0__134022.csv"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 931.0, 489.0, 131.0, 22.0 ],
-					"text" : "18:57:47:53"
+					"text" : "13:40:23:11"
 				}
 
 			}
@@ -166,7 +166,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1443.0, 578.0, 640.0, 480.0 ],
+						"rect" : [ 651.0, 768.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -236,7 +236,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "int", "int" ],
-									"patching_rect" : [ 263.0, 213.0, 79.0, 22.0 ],
+									"patching_rect" : [ 238.0, 213.0, 79.0, 22.0 ],
 									"text" : "unpack 0 0 0"
 								}
 
@@ -563,7 +563,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2307.0, 270.0, 829.0, 1004.0 ],
+						"rect" : [ 27.0, 82.0, 1469.0, 715.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -590,6 +590,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -606,13 +607,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-15",
-									"linecount" : 16,
+									"linecount" : 13,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 252.0, 500.0, 50.0, 229.0 ],
-									"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Results/2020_16_2__0__185745.csv"
+									"patching_rect" : [ 252.0, 500.0, 50.0, 188.0 ],
+									"text" : "write C:/Users/craig/Documents/Listening-Effort/Max/Logs/Results/2020_4_3__0__134021.csv"
 								}
 
 							}
@@ -646,10 +647,10 @@
 									"id" : "obj-187",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "int", "int", "float", "int", "" ],
-									"patching_rect" : [ 104.0, 169.0, 111.0, 22.0 ],
-									"text" : "unpack 0 0 0. 0 %s"
+									"numoutlets" : 6,
+									"outlettype" : [ "int", "int", "float", "int", "", "" ],
+									"patching_rect" : [ 104.0, 169.0, 131.0, 22.0 ],
+									"text" : "unpack 0 0 0. 0 %s %s"
 								}
 
 							}
@@ -657,11 +658,11 @@
 								"box" : 								{
 									"id" : "obj-68",
 									"maxclass" : "newobj",
-									"numinlets" : 5,
+									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 232.25, 165.0, 22.0 ],
-									"text" : "sprintf %i\\\\\\, %i\\\\\\, %f\\\\\\,%i\\\\\\, %s"
+									"patching_rect" : [ 104.0, 232.25, 195.0, 22.0 ],
+									"text" : "sprintf %i\\\\\\, %i\\\\\\, %f\\\\\\,%i\\\\\\, %s\\\\\\, %s"
 								}
 
 							}
@@ -734,8 +735,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 399.0, 323.0, 419.0, 22.0 ],
-									"text" : "Test condition\\, Round Number\\, SNR\\, Number of words correct\\, File loaded"
+									"patching_rect" : [ 399.0, 323.0, 489.0, 22.0 ],
+									"text" : "Test condition\\, Round Number\\, SNR\\, Number of words correct\\, File loaded\\, TimeStamp"
 								}
 
 							}
@@ -848,6 +849,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 5 ],
+									"source" : [ "obj-187", 5 ]
 								}
 
 							}
@@ -1111,7 +1119,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1839.0, 150.0, 997.0, 1104.0 ],
+						"rect" : [ 27.0, 82.0, 1469.0, 715.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1141,13 +1149,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 14,
+									"linecount" : 16,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 657.0, 903.0, 50.0, 229.0 ],
-									"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Results/2020____0__.csv"
+									"patching_rect" : [ 657.0, 903.0, 44.0, 229.0 ],
+									"text" : "write C:/Users/craig/Documents/Listening-Effort/Max/Logs/Results/2020_4_3__0__134022.csv"
 								}
 
 							}
@@ -1223,8 +1231,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 285.0, 850.0, 50.0, 229.0 ],
-									"text" : "write D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/Logs/Results/2020_16_2__0__185745.csv"
+									"patching_rect" : [ 285.0, 850.0, 44.0, 229.0 ],
+									"text" : "write C:/Users/craig/Documents/Listening-Effort/Max/Logs/Results/2020_4_3__0__134021.csv"
 								}
 
 							}
@@ -1249,7 +1257,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 372.0, 673.0, 202.0, 36.0 ],
-									"text" : "D:/documents/Docs/Imperial/Listening-Effort/Max/Audio_Only/"
+									"text" : "C:/Users/craig/Documents/Listening-Effort/Max/"
 								}
 
 							}
@@ -1689,6 +1697,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-333", 0 ],
+									"order" : 1,
+									"source" : [ "obj-411", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-374", 0 ],
+									"order" : 0,
 									"source" : [ "obj-411", 0 ]
 								}
 
@@ -1872,7 +1889,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 397.0, 235.0, 50.0, 22.0 ],
-					"text" : "5"
+					"text" : "17"
 				}
 
 			}
@@ -1884,7 +1901,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 657.0, 235.0, 100.0, 22.0 ],
-					"text" : "bkbgl03s13.wav"
+					"text" : "bkbgl02s08.wav"
 				}
 
 			}
@@ -1908,7 +1925,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 553.0, 235.0, 50.0, 22.0 ],
-					"text" : "10."
+					"text" : "16."
 				}
 
 			}
@@ -1932,7 +1949,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 449.0, 235.0, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "3"
 				}
 
 			}
@@ -2030,11 +2047,11 @@
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.333333333333371, 305.0, 107.0, 22.0 ],
-					"text" : "pack 0 0 0 0. 0 %s"
+					"patching_rect" : [ 210.333333333333371, 305.0, 127.0, 22.0 ],
+					"text" : "pack 0 0 0 0. 0 %s %s"
 				}
 
 			}
@@ -2078,6 +2095,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-100", 1 ],
 					"order" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 6 ],
+					"order" : 2,
 					"source" : [ "obj-13", 0 ]
 				}
 
