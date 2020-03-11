@@ -56,6 +56,8 @@ class Test:
         source_count += len(os.listdir(sentences_dir))
         text.write("1 %i %i %i \"%s\" \"%s\"\r" % (source_count, num_maskers, len(self._test_conditions), self._title, self._sentences))
         text.write(text_str)
+        text.write("%i %s \"%s\" %i %i %s %i %s %s \r" % (line_count, "End of Test", "Finished!", -1, -1, "_", 1, "_", "_")
+)
         text.close()
 
         xml.write("<BinauralApp>\n"
@@ -75,24 +77,19 @@ class Test:
 
         gain = 1
 
-        abs_path = posixpath.abspath(output_dir)
-        # relative_filepath = posixpath.relpath(output_dir, sentences_dir)
-
-        test = posixpath.relpath(output_dir)
-
         for i, filename in enumerate(files):
             x, y = positions[i]
-            relative_filepath = posixpath.relpath(output_dir, filename)
 
             cart = spherical_2_cartesian(1, x, y)
-            write_source(xml, source, cart, filename, "./../Media/Masking", gain,
+            filepath, filename = os.path.split(filename)
+            write_source(xml, source, cart, filename, get_rel_path(output_dir, filepath), gain,
                          20 * np.log10(gain))
             source += 1
             xml.write("\n")
 
         for filename in os.listdir(sentences_dir):
             cart = spherical_2_cartesian(1, 0, 0)
-            write_source(xml, source, cart, filename, sentences_dir, gain, 20 * np.log10(gain))
+            write_source(xml, source, cart, filename, get_rel_path(output_dir, sentences_dir), gain, 20 * np.log10(gain))
             source += 1
             xml.write("\n")
 
@@ -193,5 +190,10 @@ def spherical_2_cartesian(r, phi, theta):
     return [x, y, z]
 
 
+def get_rel_path(source, destination):
+    out = os.path.relpath(destination, source)
+    output = out.replace('\\', '/')
+    output = './' + output
+    return output
 
 

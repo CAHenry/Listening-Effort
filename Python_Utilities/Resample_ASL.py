@@ -2,8 +2,8 @@ import librosa
 import soundfile as sf
 import os
 
-ASLQ_words = "C:\\Users\\craig\\Documents\\Listening-Effort\\Max"
-old = "C:\\Users\\craig\\Documents\\Listening-Effort\\Max\\ASLQ_Matt"
+ASLQ_words = r"C:\Users\craig\Documents\Listening-Effort\Media\Masking\female_babble_new"
+old = r"C:\Users\craig\Documents\Listening-Effort\Media\Masking\male_babble"
 for filename in os.listdir(old):
     y, s = librosa.load(os.path.join(old, filename), sr=44100)
     # librosa.output.write_wav(os.path.join(ASLQ_words, filename), y, 44100)

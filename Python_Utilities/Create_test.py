@@ -1,7 +1,7 @@
 import Test_classes as le
 import os
-root = "D:\\Documents\\Docs\\Imperial\\Listening-Effort\\"
-# root = "C:\\Users\\craig\\Documents\\Listening-Effort\\"
+# root = "D:\\Documents\\Docs\\Imperial\\Listening-Effort\\"
+root = "C:\\Users\\craig\\Documents\\Listening-Effort\\"
 male_dir = root + "Media\\Masking\\male_babble"
 male_babble = [os.path.join(male_dir, file) for file in os.listdir(male_dir)]
 female_dir = root + "Media\\Masking\\female_babble"
@@ -35,7 +35,7 @@ around_3_TC.description = "Four babble sources at 45, 135, 225 and 315 degrees. 
 
 
 test_one = le.Test("Example test", [babble_behind_1_TC, around_3_TC, babble_front_2_TC], "BKBQwords_new.txt")
-test_one.output("Example_test", "./../Media/BKB")
+test_one.output("Example_test", r"C:\Users\craig\Documents\Listening-Effort\Media\BKB")
 
 # babble_front = le.MaskingCondition("Babble_front", 1)
 # babble_front.set_source_positions([1, 0])

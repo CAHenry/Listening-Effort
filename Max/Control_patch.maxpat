@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1177.0, 85.0, 1821.0, 1273.0 ],
+		"rect" : [ 802.0, 82.0, 700.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 677.5, 248.0, 193.0, 64.0 ],
-					"text" : "Babble_front \"One babble source directly in front of the participant. Screen in front.\" 12 2 one_in_front.mp4 2"
+					"text" : "Babble_behind \"Two babble sources at 135 and 225 degrees. Screen to the left.\" 0 4 two_behind.mp4 1"
 				}
 
 			}
@@ -108,7 +108,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -141,7 +141,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-33",
@@ -764,7 +763,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-183",
-					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -890,7 +888,7 @@
 					"patching_rect" : [ 3033.0, 212.0, 226.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.299999999999955, 105.0, 726.0, 25.0 ],
-					"text" : "Babble_front",
+					"text" : "Babble_behind",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -992,6 +990,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
+					"hidden" : 1,
 					"id" : "obj-158",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1019,6 +1018,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
+					"hidden" : 1,
 					"id" : "obj-146",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -1641,6 +1641,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-105",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -1712,8 +1713,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2101.500000000000455, 775.0, 123.0, 22.0 ],
-					"text" : "r round_number_now"
+					"patching_rect" : [ 2101.500000000000455, 775.0, 94.0, 22.0 ],
+					"text" : "r round_number"
 				}
 
 			}
@@ -2005,13 +2006,13 @@
 					"presentation_rect" : [ 203.000000000000227, 305.0, 89.0, 92.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -0.044094 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[2]"
+							"parameter_longname" : "live.gain~[2]",
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ -0.044094 ]
 						}
 
 					}
@@ -2285,7 +2286,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2657,7 +2658,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 365.0, 504.0, 50.0, 22.0 ],
-									"text" : "20"
+									"text" : "58"
 								}
 
 							}
@@ -3175,6 +3176,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
+					"hidden" : 1,
 					"id" : "obj-48",
 					"keymode" : 1,
 					"maxclass" : "textedit",
@@ -3204,6 +3206,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
+					"hidden" : 1,
 					"id" : "obj-79",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -3233,6 +3236,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
+					"hidden" : 1,
 					"id" : "obj-71",
 					"keymode" : 1,
 					"maxclass" : "textedit",
@@ -3271,7 +3275,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3689,8 +3693,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 8,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 861.0, 569.0, 82.0, 22.0 ],
 					"text" : "Play_Media"
 				}
@@ -3721,6 +3725,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Franklin Gothic Medium",
+					"hidden" : 1,
 					"id" : "obj-93",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -3757,13 +3762,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 499.0, 308.0, 667.0, 702.0 ],
+						"rect" : [ 41.0, 92.0, 667.0, 702.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3790,7 +3795,21 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"linecount" : 46,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 692.0, 341.0, 50.0, 643.0 ],
+									"text" : "Babble_behind \"Two babble sources at 135 and 225 degrees. Screen to the left.\" 0 4 two_behind.mp4 1 4.018 144.4 -1.01 -5.53 0.1 175. 140. 4.691 184.29 0. 0. -1.68 183. 146.4 4.691 184.29 0. 0. -1.68 183. 146.4 Idling/test.mp4 Idling/test.mp4 Idling/test.mp4"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"linecount" : 2,
@@ -4004,7 +4023,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 693.0, 268.0, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0
+										"embed" : 0,
+										"precision" : 6
 									}
 ,
 									"text" : "coll test"
@@ -4074,6 +4094,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 1 ],
+									"order" : 1,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"order" : 0,
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -4389,6 +4418,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.16078431372549, 0.32156862745098, 0.403921568627451, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-118",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4996,13 +5026,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"order" : 1,
-					"source" : [ "obj-19", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -5011,14 +5034,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"order" : 0,
-					"source" : [ "obj-19", 1 ]
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-19", 2 ]
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
@@ -5721,49 +5744,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Play_Media.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max",
+				"bootpath" : "~/Documents/Listening-Effort/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Word_selection.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max",
+				"bootpath" : "~/Documents/Listening-Effort/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SNR_calculation.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max",
+				"bootpath" : "~/Documents/Listening-Effort/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tracking.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max",
+				"bootpath" : "~/Documents/Listening-Effort/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "StoppingRule.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max",
+				"bootpath" : "~/Documents/Listening-Effort/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Log.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max",
+				"bootpath" : "~/Documents/Listening-Effort/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Graph.maxpat",
-				"bootpath" : "D:/documents/Docs/Imperial/Listening-Effort/Max",
+				"bootpath" : "~/Documents/Listening-Effort/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
